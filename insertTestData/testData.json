@@ -1,0 +1,4602 @@
+[
+  {
+    "date": "01/01/2019",
+    "description": "Skyba",
+    "amount": 49,
+    "transactionType": "debit",
+    "category": "Gym",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/01/2019",
+    "description": "Feedfish",
+    "amount": 60.8,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/01/2019",
+    "description": "Vinte",
+    "amount": 10.12,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/1/2019",
+    "description": "Buzzshare",
+    "amount": 1150,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "01/03/2019",
+    "description": "Avaveo",
+    "amount": 3.03,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/03/2019",
+    "description": "Feedfish",
+    "amount": 9.42,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/03/2019",
+    "description": "Photobean",
+    "amount": 121,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/04/2019",
+    "description": "Viva",
+    "amount": 5.98,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/04/2019",
+    "description": "Youspan",
+    "amount": 83.49,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/04/2019",
+    "description": "Dynabox",
+    "amount": 32.55,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/04/2019",
+    "description": "Brightdog",
+    "amount": 2.5,
+    "transactionType": "debit",
+    "category": "ATM Fee",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "01/04/2019",
+    "description": "Trilith",
+    "amount": 80,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "01/04/2019",
+    "description": "Demimbu",
+    "amount": 22.5,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/05/2019",
+    "description": "InnoZ",
+    "amount": 11.27,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/05/2019",
+    "description": "Zoomcast",
+    "amount": 29,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/05/2019",
+    "description": "Zoomcast",
+    "amount": 15,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/05/2019",
+    "description": "Zoomcast",
+    "amount": 27,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/06/2019",
+    "description": "Edgepulse",
+    "amount": 107.25,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/06/2019",
+    "description": "Viva",
+    "amount": 9.83,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/06/2019",
+    "description": "Reallinks",
+    "amount": 39.85,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/07/2019",
+    "description": "Youspan",
+    "amount": 25.51,
+    "transactionType": "debit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/07/2019",
+    "description": "Meemm",
+    "amount": 54.14,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/07/2019",
+    "description": "Wordify",
+    "amount": 10.1,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "01/07/2019",
+    "description": "Youspan",
+    "amount": 200,
+    "transactionType": "debit",
+    "category": "Vacation",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "01/09/2019",
+    "description": "Viva",
+    "amount": 11.71,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/11/2019",
+    "description": "Trunyx",
+    "amount": 5.69,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "1/11/2019",
+    "description": "Rhyzio",
+    "amount": 10.2,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "1/12/2019",
+    "description": "Dazzlesphere",
+    "amount": 51.05,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/13/2019",
+    "description": "Photobug",
+    "amount": 13.5,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/13/2019",
+    "description": "Cogidoo",
+    "amount": 8.5,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/13/2019",
+    "description": "Quatz",
+    "amount": 247.96,
+    "transactionType": "debit",
+    "category": "Air Travel",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/13/2019",
+    "description": "Photofeed",
+    "amount": 8.29,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/15/2019",
+    "description": "Avaveo",
+    "amount": 3.03,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/15/2019",
+    "description": "Demizz",
+    "amount": 1626.06,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "1/15/2019",
+    "description": "Edgepulse",
+    "amount": 107.25,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/15/2019",
+    "description": "Viva",
+    "amount": 14.18,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/15/2019",
+    "description": "Dynabox",
+    "amount": 15.7,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/15/2019",
+    "description": "Topicblab",
+    "amount": 13.88,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/15/2019",
+    "description": "Yodel",
+    "amount": 112.7,
+    "transactionType": "debit",
+    "category": "Clothing",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/15/2019",
+    "description": "Yozio",
+    "amount": 7.58,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/16/2019",
+    "description": "Wordify",
+    "amount": 23,
+    "transactionType": "debit",
+    "category": "Amusement",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/16/2019",
+    "description": "Layo",
+    "amount": 5.16,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/16/2019",
+    "description": "Trudoo",
+    "amount": 4.53,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "1/16/2019",
+    "description": "Pixope",
+    "amount": 75.2,
+    "transactionType": "debit",
+    "category": "Entertainment",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/17/2019",
+    "description": "InnoZ",
+    "amount": 17.97,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/17/2019",
+    "description": "Gevee",
+    "amount": 7.65,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/17/2019",
+    "description": "Demimbu",
+    "amount": 16.22,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/18/2019",
+    "description": "Viva",
+    "amount": 7.92,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/18/2019",
+    "description": "Feedfish",
+    "amount": 9.42,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/19/2019",
+    "description": "Realmix",
+    "amount": 17,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/19/2019",
+    "description": "Rhyzio",
+    "amount": 16.7,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/19/2019",
+    "description": "Yozio",
+    "amount": 7.58,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/20/2019",
+    "description": "Viva",
+    "amount": 59.1,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/20/2019",
+    "description": "Dabtype",
+    "amount": 33.72,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/23/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/23/2019",
+    "description": "InnoZ",
+    "amount": 9.74,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/25/2019",
+    "description": "Vinder",
+    "amount": 20.76,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/25/2019",
+    "description": "Yabox",
+    "amount": 33,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/26/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/26/2019",
+    "description": "Tagcat",
+    "amount": 92.19,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/26/2019",
+    "description": "Feedfish",
+    "amount": 10.89,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/26/2019",
+    "description": "Trudeo",
+    "amount": 10.99,
+    "transactionType": "debit",
+    "category": "Movies & DVDs",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/26/2019",
+    "description": "Mybuzz",
+    "amount": 16.27,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/27/2019",
+    "description": "Devpoint",
+    "amount": 6.37,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/28/2019",
+    "description": "Brainlounge",
+    "amount": 140.15,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/28/2019",
+    "description": "Quatz",
+    "amount": 35.85,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/29/2019",
+    "description": "Viva",
+    "amount": 11.89,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/30/2019",
+    "description": "Skyvu",
+    "amount": 15.55,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/31/2019",
+    "description": "Demizz",
+    "amount": 1580.34,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "1/31/2019",
+    "description": "Wordify",
+    "amount": 5.95,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "1/31/2019",
+    "description": "Yozio",
+    "amount": 3.6,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/01/2019",
+    "description": "Skyba",
+    "amount": 49,
+    "transactionType": "debit",
+    "category": "Gym",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/01/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/01/2019",
+    "description": "Viva",
+    "amount": 15.71,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/01/2019",
+    "description": "Latz",
+    "amount": 25.56,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/01/2019",
+    "description": "Trudoo",
+    "amount": 13.16,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/1/2019",
+    "description": "Buzzshare",
+    "amount": 1150,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "02/02/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/02/2019",
+    "description": "Photobean",
+    "amount": 121,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/02/2019",
+    "description": "Omba",
+    "amount": 53,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/02/2019",
+    "description": "Yozio",
+    "amount": 3.6,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/03/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/03/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/03/2019",
+    "description": "Youspan",
+    "amount": 83.49,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/03/2019",
+    "description": "Twimbo",
+    "amount": 34.03,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/03/2019",
+    "description": "Topiczoom",
+    "amount": 74.06,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/03/2019",
+    "description": "Oyope",
+    "amount": 17.24,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/04/2019",
+    "description": "Photobean",
+    "amount": 45,
+    "transactionType": "debit",
+    "category": "Amusement",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/04/2019",
+    "description": "Innotype",
+    "amount": 57.87,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/04/2019",
+    "description": "Eadel",
+    "amount": 36.09,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "02/06/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/06/2019",
+    "description": "Viva",
+    "amount": 10.05,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/07/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/07/2019",
+    "description": "Photobug",
+    "amount": 5.75,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/08/2019",
+    "description": "Podcat",
+    "amount": 1.25,
+    "transactionType": "debit",
+    "category": "Office Supplies",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/08/2019",
+    "description": "Youspan",
+    "amount": 275,
+    "transactionType": "debit",
+    "category": "Vacation",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "02/09/2019",
+    "description": "Viva",
+    "amount": 5.29,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/09/2019",
+    "description": "Vinder",
+    "amount": 23.92,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/09/2019",
+    "description": "Yodoo",
+    "amount": 8.97,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "02/09/2019",
+    "description": "Eidel",
+    "amount": 17.02,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/10/2019",
+    "description": "Gigashots",
+    "amount": 31.96,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/10/2019",
+    "description": "Gigashots",
+    "amount": 5.13,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/10/2019",
+    "description": "Dablist",
+    "amount": 33.33,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/10/2019",
+    "description": "Gabcube",
+    "amount": 28.47,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/10/2019",
+    "description": "Eayo",
+    "amount": 59.59,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/11/2019",
+    "description": "Flipstorm",
+    "amount": 3.5,
+    "transactionType": "debit",
+    "category": "ATM Fee",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "2/11/2019",
+    "description": "Flipstorm",
+    "amount": 100,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "2/11/2019",
+    "description": "Yamia",
+    "amount": 30,
+    "transactionType": "debit",
+    "category": "Parking",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/11/2019",
+    "description": "Gigaclub",
+    "amount": 18.25,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/12/2019",
+    "description": "Oyoyo",
+    "amount": 2.08,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/12/2019",
+    "description": "Myworks",
+    "amount": 27.97,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/12/2019",
+    "description": "Edgewire",
+    "amount": 16.15,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/13/2019",
+    "description": "Trudeo",
+    "amount": 7.35,
+    "transactionType": "debit",
+    "category": "Office Supplies",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/13/2019",
+    "description": "Dynabox",
+    "amount": 36.81,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/14/2019",
+    "description": "Zoomlounge",
+    "amount": 29.73,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/14/2019",
+    "description": "Gigashots",
+    "amount": 9.6,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/14/2019",
+    "description": "Gigashots",
+    "amount": 7.3,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/14/2019",
+    "description": "Jabbersphere",
+    "amount": 14.72,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/14/2019",
+    "description": "Ooba",
+    "amount": 33.08,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/14/2019",
+    "description": "Jetpulse",
+    "amount": 33.55,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "2/15/2019",
+    "description": "Flipstorm",
+    "amount": 3.5,
+    "transactionType": "debit",
+    "category": "ATM Fee",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "2/15/2019",
+    "description": "Flipstorm",
+    "amount": 100,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "2/15/2019",
+    "description": "Demizz",
+    "amount": 1580.33,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "2/15/2019",
+    "description": "Gigashots",
+    "amount": 9.65,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/15/2019",
+    "description": "Gigashots",
+    "amount": 2,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/16/2019",
+    "description": "Gigashots",
+    "amount": 11.18,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/16/2019",
+    "description": "Twitterlist",
+    "amount": 53.4,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/16/2019",
+    "description": "Skaboo",
+    "amount": 83.87,
+    "transactionType": "debit",
+    "category": "Vacation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/16/2019",
+    "description": "Skaboo",
+    "amount": 20,
+    "transactionType": "debit",
+    "category": "Vacation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/16/2019",
+    "description": "Photojam",
+    "amount": 112.08,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/17/2019",
+    "description": "Trilith",
+    "amount": 31.15,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "2/17/2019",
+    "description": "Thoughtbeat",
+    "amount": 40.43,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/18/2019",
+    "description": "Roombo",
+    "amount": 27.09,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/19/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/19/2019",
+    "description": "Gigashots",
+    "amount": 93.79,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/19/2019",
+    "description": "Eazzy",
+    "amount": 60.88,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/21/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/21/2019",
+    "description": "Oyope",
+    "amount": 100,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/21/2019",
+    "description": "Katz",
+    "amount": 13.05,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/23/2019",
+    "description": "Teklist",
+    "amount": 4,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/24/2019",
+    "description": "Edgepulse",
+    "amount": 107.25,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/24/2019",
+    "description": "Yodoo",
+    "amount": 13,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/24/2019",
+    "description": "Skiptube",
+    "amount": 38,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/24/2019",
+    "description": "Skiptube",
+    "amount": 102,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/24/2019",
+    "description": "Topicstorm",
+    "amount": 46.2,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/24/2019",
+    "description": "Twitterwire",
+    "amount": 35.89,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/25/2019",
+    "description": "Gigashots",
+    "amount": 5,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/26/2019",
+    "description": "Viva",
+    "amount": 5.52,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/26/2019",
+    "description": "Trudeo",
+    "amount": 10.99,
+    "transactionType": "debit",
+    "category": "Movies & DVDs",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "2/28/2019",
+    "description": "Demizz",
+    "amount": 1580.34,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "2/28/2019",
+    "description": "Rooxo",
+    "amount": 11.4,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/01/2019",
+    "description": "Skyba",
+    "amount": 49,
+    "transactionType": "debit",
+    "category": "Gym",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/01/2019",
+    "description": "Viva",
+    "amount": 8.78,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/01/2019",
+    "description": "Gevee",
+    "amount": 4.9,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/01/2019",
+    "description": "Flashdog",
+    "amount": 4.36,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/01/2019",
+    "description": "Omba",
+    "amount": 60.6,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/02/2019",
+    "description": "Topicblab",
+    "amount": 14.1,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/04/2019",
+    "description": "Youspan",
+    "amount": 35,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "03/04/2019",
+    "description": "Youspan",
+    "amount": 50,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "03/05/2019",
+    "description": "Gevee",
+    "amount": 4.9,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/05/2019",
+    "description": "Youspan",
+    "amount": 83.49,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/06/2019",
+    "description": "Viva",
+    "amount": 13.77,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/06/2019",
+    "description": "Photobean",
+    "amount": 121,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/06/2019",
+    "description": "Jabbersphere",
+    "amount": 24.99,
+    "transactionType": "debit",
+    "category": "Entertainment",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "03/07/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/07/2019",
+    "description": "Wordify",
+    "amount": 4.99,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/07/2019",
+    "description": "Youspan",
+    "amount": 50,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "03/08/2019",
+    "description": "Gevee",
+    "amount": 4.9,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/09/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "03/09/2019",
+    "description": "Fatz",
+    "amount": 852.49,
+    "transactionType": "debit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/11/2019",
+    "description": "Youspan",
+    "amount": 102.24,
+    "transactionType": "debit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/11/2019",
+    "description": "Npath",
+    "amount": 30.05,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/11/2019",
+    "description": "Cogidoo",
+    "amount": 36.24,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/12/2019",
+    "description": "Ainyx",
+    "amount": 341.41,
+    "transactionType": "debit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/12/2019",
+    "description": "Ainyx",
+    "amount": 276.95,
+    "transactionType": "debit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/12/2019",
+    "description": "Viva",
+    "amount": 2.69,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/12/2019",
+    "description": "Meevee",
+    "amount": 14.14,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/12/2019",
+    "description": "Buzzshare",
+    "amount": 1150,
+    "transactionType": "credit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/14/2019",
+    "description": "Viva",
+    "amount": 13.47,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/15/2019",
+    "description": "Demizz",
+    "amount": 1580.33,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/15/2019",
+    "description": "Gevee",
+    "amount": 4.9,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/16/2019",
+    "description": "Rhyzio",
+    "amount": 9.95,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/16/2019",
+    "description": "Rhyzio",
+    "amount": 10.75,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/17/2019",
+    "description": "Brainverse",
+    "amount": 54.94,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/17/2019",
+    "description": "Centidel",
+    "amount": 93.75,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/17/2019",
+    "description": "Topicblab",
+    "amount": 27.98,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/18/2019",
+    "description": "Youspan",
+    "amount": 25.03,
+    "transactionType": "credit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/18/2019",
+    "description": "Youspan",
+    "amount": 282.97,
+    "transactionType": "debit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/18/2019",
+    "description": "Voomm",
+    "amount": 160,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/18/2019",
+    "description": "Gabcube",
+    "amount": 35,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/18/2019",
+    "description": "Trunyx",
+    "amount": 14.13,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/18/2019",
+    "description": "Quire",
+    "amount": 16.01,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/18/2019",
+    "description": "Blogtags",
+    "amount": 10.88,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/19/2019",
+    "description": "Viva",
+    "amount": 7.98,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/19/2019",
+    "description": "Viva",
+    "amount": 9.28,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/19/2019",
+    "description": "Dablist",
+    "amount": 76.2,
+    "transactionType": "debit",
+    "category": "Electronics & Software",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/19/2019",
+    "description": "Dablist",
+    "amount": 707.68,
+    "transactionType": "debit",
+    "category": "Electronics & Software",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/19/2019",
+    "description": "Trunyx",
+    "amount": 5.32,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/19/2019",
+    "description": "Youspan",
+    "amount": 36,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/20/2019",
+    "description": "Pixoboo",
+    "amount": 55.64,
+    "transactionType": "debit",
+    "category": "Office Supplies",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/20/2019",
+    "description": "Eazzy",
+    "amount": 23.24,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/21/2019",
+    "description": "Viva",
+    "amount": 46.57,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/21/2019",
+    "description": "Tazz",
+    "amount": 136.03,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/21/2019",
+    "description": "Geba",
+    "amount": 1056.09,
+    "transactionType": "debit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/22/2019",
+    "description": "Buzzshare",
+    "amount": 25.64,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/22/2019",
+    "description": "Browsebug",
+    "amount": 18.5,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/22/2019",
+    "description": "Zoomcast",
+    "amount": 44.99,
+    "transactionType": "debit",
+    "category": "Internet",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/23/2019",
+    "description": "Skiba",
+    "amount": 91.92,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/24/2019",
+    "description": "Youtags",
+    "amount": 173.16,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/24/2019",
+    "description": "Buzzshare",
+    "amount": 13.98,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "3/24/2019",
+    "description": "Omba",
+    "amount": 44,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/25/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/25/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/25/2019",
+    "description": "Oyoyo",
+    "amount": 2.45,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/25/2019",
+    "description": "Youspan",
+    "amount": 19,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/25/2019",
+    "description": "Youspan",
+    "amount": 50,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/26/2019",
+    "description": "Jayo",
+    "amount": 28.17,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/26/2019",
+    "description": "Viva",
+    "amount": 23.94,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/26/2019",
+    "description": "Trudeo",
+    "amount": 10.99,
+    "transactionType": "debit",
+    "category": "Movies & DVDs",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/27/2019",
+    "description": "Vidoo",
+    "amount": 29.99,
+    "transactionType": "debit",
+    "category": "Movies & DVDs",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/28/2019",
+    "description": "Viva",
+    "amount": 7.98,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/28/2019",
+    "description": "Browsetype",
+    "amount": 7.62,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/28/2019",
+    "description": "Oyope",
+    "amount": 23,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/28/2019",
+    "description": "Youspan",
+    "amount": 60,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/29/2019",
+    "description": "Demizz",
+    "amount": 1580.34,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/29/2019",
+    "description": "Youspan",
+    "amount": 15,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "3/30/2019",
+    "description": "Wordify",
+    "amount": 62.1,
+    "transactionType": "debit",
+    "category": "Amusement",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/30/2019",
+    "description": "Viva",
+    "amount": 9.03,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/30/2019",
+    "description": "Tanoodle",
+    "amount": 35.26,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/30/2019",
+    "description": "Pixoboo",
+    "amount": 79.8,
+    "transactionType": "debit",
+    "category": "Clothing",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/31/2019",
+    "description": "Gigashots",
+    "amount": 26.58,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "3/31/2019",
+    "description": "Lazz",
+    "amount": 103.01,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/01/2019",
+    "description": "Skyba",
+    "amount": 49,
+    "transactionType": "debit",
+    "category": "Gym",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/01/2019",
+    "description": "Skyvu",
+    "amount": 224.08,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/01/2019",
+    "description": "Oyoloo",
+    "amount": 54.96,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/01/2019",
+    "description": "Blogtags",
+    "amount": 9.53,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/01/2019",
+    "description": "Buzzshare",
+    "amount": 31,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "04/01/2019",
+    "description": "Buzzshare",
+    "amount": 1150,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "04/02/2019",
+    "description": "Viva",
+    "amount": 61.05,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/02/2019",
+    "description": "Livefish",
+    "amount": 11.97,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/02/2019",
+    "description": "Topicblab",
+    "amount": 14.43,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/03/2019",
+    "description": "Viva",
+    "amount": 11.97,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/03/2019",
+    "description": "Brainverse",
+    "amount": 11.95,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/03/2019",
+    "description": "Gabcube",
+    "amount": 17.17,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/03/2019",
+    "description": "Lajo",
+    "amount": 342.95,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/03/2019",
+    "description": "Skyvu",
+    "amount": 17.42,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/04/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/04/2019",
+    "description": "Youspan",
+    "amount": 83.49,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/05/2019",
+    "description": "Demimbu",
+    "amount": 12.51,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/06/2019",
+    "description": "Kwideo",
+    "amount": 50,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/06/2019",
+    "description": "Photobean",
+    "amount": 121,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/06/2019",
+    "description": "Thoughtsphere",
+    "amount": 11.43,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/07/2019",
+    "description": "Trunyx",
+    "amount": 12.27,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/07/2019",
+    "description": "LiveZ",
+    "amount": 52.59,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/07/2019",
+    "description": "Browsedrive",
+    "amount": 8,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/07/2019",
+    "description": "Demimbu",
+    "amount": 28.82,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/07/2019",
+    "description": "Blogtags",
+    "amount": 10.88,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/08/2019",
+    "description": "Youspan",
+    "amount": 72.35,
+    "transactionType": "debit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "04/08/2019",
+    "description": "Kamba",
+    "amount": 1342,
+    "transactionType": "debit",
+    "category": "State Tax",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "04/08/2019",
+    "description": "Buzzshare",
+    "amount": 79,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "04/09/2019",
+    "description": "Vipe",
+    "amount": 52.89,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/10/2019",
+    "description": "Viva",
+    "amount": 36.75,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/10/2019",
+    "description": "Viva",
+    "amount": 8.36,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/13/2019",
+    "description": "Jabbersphere",
+    "amount": 24,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/13/2019",
+    "description": "Latz",
+    "amount": 15.11,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/14/2019",
+    "description": "Topicstorm",
+    "amount": 16.06,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/15/2019",
+    "description": "Demizz",
+    "amount": 1580.22,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "4/15/2019",
+    "description": "Trunyx",
+    "amount": 8.7,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/16/2019",
+    "description": "Viva",
+    "amount": 55.28,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/16/2019",
+    "description": "Livefish",
+    "amount": 11.97,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/16/2019",
+    "description": "Eire",
+    "amount": 664,
+    "transactionType": "credit",
+    "category": "State Tax",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "4/17/2019",
+    "description": "Viva",
+    "amount": 11.97,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/17/2019",
+    "description": "Dynabox",
+    "amount": 109.93,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/17/2019",
+    "description": "Jabberbean",
+    "amount": 209.98,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/17/2019",
+    "description": "Npath",
+    "amount": 1111.04,
+    "transactionType": "credit",
+    "category": "Taxes",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "4/18/2019",
+    "description": "Demimbu",
+    "amount": 10.42,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/18/2019",
+    "description": "DabZ",
+    "amount": 77.5,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/18/2019",
+    "description": "Katz",
+    "amount": 37,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/19/2019",
+    "description": "Yodoo",
+    "amount": 15.3,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/21/2019",
+    "description": "Gigashots",
+    "amount": 16.85,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/21/2019",
+    "description": "Gigashots",
+    "amount": 14.62,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/21/2019",
+    "description": "Rooxo",
+    "amount": 11.4,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/21/2019",
+    "description": "Myworks",
+    "amount": 77.24,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/22/2019",
+    "description": "Edgepulse",
+    "amount": 23,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/22/2019",
+    "description": "Yodoo",
+    "amount": 29.67,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/22/2019",
+    "description": "Buzzshare",
+    "amount": 34,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "4/23/2019",
+    "description": "Brainverse",
+    "amount": 19.05,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/24/2019",
+    "description": "Viva",
+    "amount": 53.67,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/24/2019",
+    "description": "Quinu",
+    "amount": 12.79,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/25/2019",
+    "description": "Innojam",
+    "amount": 39.63,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/25/2019",
+    "description": "Oyoyo",
+    "amount": 5.99,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/25/2019",
+    "description": "Buzzshare",
+    "amount": 93,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "4/26/2019",
+    "description": "Jabbersphere",
+    "amount": 12,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/26/2019",
+    "description": "Oyoyo",
+    "amount": 3.95,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/26/2019",
+    "description": "Trudeo",
+    "amount": 10.99,
+    "transactionType": "debit",
+    "category": "Movies & DVDs",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/26/2019",
+    "description": "Gabvine",
+    "amount": 195,
+    "transactionType": "debit",
+    "category": "Service Fee",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/26/2019",
+    "description": "DabZ",
+    "amount": 73.33,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/26/2019",
+    "description": "DabZ",
+    "amount": 38.66,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/27/2019",
+    "description": "Jabbersphere",
+    "amount": 18,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/27/2019",
+    "description": "Yodoo",
+    "amount": 27.37,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/27/2019",
+    "description": "Demimbu",
+    "amount": 57.12,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/28/2019",
+    "description": "Oyoloo",
+    "amount": 32.37,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/28/2019",
+    "description": "Rhycero",
+    "amount": 50.75,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/29/2019",
+    "description": "Yodoo",
+    "amount": 13,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/29/2019",
+    "description": "Buzzshare",
+    "amount": 1150,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "4/30/2019",
+    "description": "Demizz",
+    "amount": 1783.22,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "4/30/2019",
+    "description": "InnoZ",
+    "amount": 9.74,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "4/30/2019",
+    "description": "Twitterbeat",
+    "amount": 25,
+    "transactionType": "debit",
+    "category": "Amusement",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/01/2019",
+    "description": "Skyba",
+    "amount": 49,
+    "transactionType": "debit",
+    "category": "Gym",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/01/2019",
+    "description": "Viva",
+    "amount": 7.55,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/01/2019",
+    "description": "Gabcube",
+    "amount": 50.1,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/01/2019",
+    "description": "Oyoyo",
+    "amount": 7.11,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/01/2019",
+    "description": "Topdrive",
+    "amount": 15.24,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/03/2019",
+    "description": "Voomm",
+    "amount": 80,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "05/03/2019",
+    "description": "Eidel",
+    "amount": 76,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/04/2019",
+    "description": "Youspan",
+    "amount": 83.49,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/05/2019",
+    "description": "Livefish",
+    "amount": 21.75,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/05/2019",
+    "description": "Snaptags",
+    "amount": 12.65,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/05/2019",
+    "description": "Topicblab",
+    "amount": 6.53,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/07/2019",
+    "description": "Photobean",
+    "amount": 127,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/08/2019",
+    "description": "Oyoyo",
+    "amount": 7.11,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/08/2019",
+    "description": "Bubblemix",
+    "amount": 101.25,
+    "transactionType": "debit",
+    "category": "Personal Care",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/08/2019",
+    "description": "Flashdog",
+    "amount": 5.76,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/08/2019",
+    "description": "Realfire",
+    "amount": 37.24,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/08/2019",
+    "description": "Mydeo",
+    "amount": 22.61,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "05/09/2019",
+    "description": "Eadel",
+    "amount": 101.92,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/10/2019",
+    "description": "Dynabox",
+    "amount": 30.82,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/10/2019",
+    "description": "Riffwire",
+    "amount": 15.79,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/10/2019",
+    "description": "Vipe",
+    "amount": 39.17,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/12/2019",
+    "description": "Twitterwire",
+    "amount": 12.23,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "5/13/2019",
+    "description": "Brainverse",
+    "amount": 10.88,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/13/2019",
+    "description": "Voomm",
+    "amount": 60,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "5/13/2019",
+    "description": "Zazio",
+    "amount": 87.58,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/14/2019",
+    "description": "Viva",
+    "amount": 23.53,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/15/2019",
+    "description": "Demizz",
+    "amount": 1783.22,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "5/15/2019",
+    "description": "Dynabox",
+    "amount": 13.57,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/15/2019",
+    "description": "Tagcat",
+    "amount": 104.02,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/16/2019",
+    "description": "Viva",
+    "amount": 11.97,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/16/2019",
+    "description": "Wikivu",
+    "amount": 204.69,
+    "transactionType": "debit",
+    "category": "Clothing",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/16/2019",
+    "description": "Babbleset",
+    "amount": 6.48,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/19/2019",
+    "description": "Edgepulse",
+    "amount": 11.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/19/2019",
+    "description": "Gabcube",
+    "amount": 22.53,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/19/2019",
+    "description": "Podcat",
+    "amount": 134.41,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/19/2019",
+    "description": "Layo",
+    "amount": 12.96,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/20/2019",
+    "description": "Voomm",
+    "amount": 32,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "5/20/2019",
+    "description": "Quatz",
+    "amount": 59.9,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/20/2019",
+    "description": "Npath",
+    "amount": 33.72,
+    "transactionType": "debit",
+    "category": "Home Services",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/21/2019",
+    "description": "Jabbersphere",
+    "amount": 335.6,
+    "transactionType": "debit",
+    "category": "Air Travel",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/21/2019",
+    "description": "Snaptags",
+    "amount": 12.65,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/21/2019",
+    "description": "Edgeblab",
+    "amount": 10.89,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/21/2019",
+    "description": "JumpXS",
+    "amount": 157.95,
+    "transactionType": "debit",
+    "category": "Clothing",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/22/2019",
+    "description": "Feedspan",
+    "amount": 50.77,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/22/2019",
+    "description": "Mynte",
+    "amount": 66.96,
+    "transactionType": "debit",
+    "category": "Utilities",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "5/22/2019",
+    "description": "Yodoo",
+    "amount": 19.32,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/22/2019",
+    "description": "Realbridge",
+    "amount": 8.03,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/22/2019",
+    "description": "Zoomcast",
+    "amount": 116,
+    "transactionType": "debit",
+    "category": "Internet",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "5/23/2019",
+    "description": "Jazzy",
+    "amount": 43.05,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/23/2019",
+    "description": "Kimia",
+    "amount": 15.24,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/24/2019",
+    "description": "Realbuzz",
+    "amount": 102.19,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/25/2019",
+    "description": "Yodoo",
+    "amount": 19.9,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/25/2019",
+    "description": "Kwideo",
+    "amount": 14,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/25/2019",
+    "description": "Edgeify",
+    "amount": 41.84,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/26/2019",
+    "description": "Trudeo",
+    "amount": 12.99,
+    "transactionType": "debit",
+    "category": "Movies & DVDs",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/27/2019",
+    "description": "Edgepulse",
+    "amount": 23,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/27/2019",
+    "description": "Brainverse",
+    "amount": 10.88,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/27/2019",
+    "description": "Realfire",
+    "amount": 34.56,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/28/2019",
+    "description": "Oyoyo",
+    "amount": 5.39,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/28/2019",
+    "description": "Twitterwire",
+    "amount": 30.58,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/28/2019",
+    "description": "Buzzshare",
+    "amount": 1150,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "5/29/2019",
+    "description": "Viva",
+    "amount": 25.53,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/29/2019",
+    "description": "Dynabox",
+    "amount": 16.45,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/29/2019",
+    "description": "Photobean",
+    "amount": 100.21,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/30/2019",
+    "description": "Meembee",
+    "amount": 11.97,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/30/2019",
+    "description": "Pixope",
+    "amount": 127.5,
+    "transactionType": "debit",
+    "category": "Entertainment",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/31/2019",
+    "description": "Demizz",
+    "amount": 1783.22,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "5/31/2019",
+    "description": "Viva",
+    "amount": 7.98,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/31/2019",
+    "description": "Devcast",
+    "amount": 119.75,
+    "transactionType": "debit",
+    "category": "Entertainment",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "5/31/2019",
+    "description": "Voomm",
+    "amount": 80,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "5/31/2019",
+    "description": "Latz",
+    "amount": 18.48,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/01/2019",
+    "description": "Skyba",
+    "amount": 49,
+    "transactionType": "debit",
+    "category": "Gym",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/01/2019",
+    "description": "Gigashots",
+    "amount": 23.56,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/01/2019",
+    "description": "Gigashots",
+    "amount": 22.42,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/01/2019",
+    "description": "Gabcube",
+    "amount": 41.1,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/02/2019",
+    "description": "Skyvu",
+    "amount": 374.76,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/02/2019",
+    "description": "Demimbu",
+    "amount": 14.68,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/02/2019",
+    "description": "Buzzster",
+    "amount": 126,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/03/2019",
+    "description": "Jayo",
+    "amount": 41.92,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/03/2019",
+    "description": "Jayo",
+    "amount": 52.99,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/03/2019",
+    "description": "Trunyx",
+    "amount": 15.2,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/03/2019",
+    "description": "Youspan",
+    "amount": 83.49,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/03/2019",
+    "description": "Skidoo",
+    "amount": 16.09,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/04/2019",
+    "description": "Viva",
+    "amount": 11.06,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/04/2019",
+    "description": "Youopia",
+    "amount": 13.5,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/06/2019",
+    "description": "Viva",
+    "amount": 6.98,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/06/2019",
+    "description": "Bubblebox",
+    "amount": 3.99,
+    "transactionType": "debit",
+    "category": "Music",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/06/2019",
+    "description": "Dynabox",
+    "amount": 13.57,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/06/2019",
+    "description": "Jabbersphere",
+    "amount": 130.65,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/07/2019",
+    "description": "Viva",
+    "amount": 5.78,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/07/2019",
+    "description": "Voomm",
+    "amount": 80,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "06/07/2019",
+    "description": "Photobean",
+    "amount": 127,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/07/2019",
+    "description": "Edgeblab",
+    "amount": 12.52,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/07/2019",
+    "description": "Podcat",
+    "amount": 7.65,
+    "transactionType": "debit",
+    "category": "Office Supplies",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/08/2019",
+    "description": "Skyvu",
+    "amount": 108.86,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/09/2019",
+    "description": "Gigashots",
+    "amount": 12.94,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/09/2019",
+    "description": "Youbridge",
+    "amount": 42,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/09/2019",
+    "description": "Yodoo",
+    "amount": 27.37,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/09/2019",
+    "description": "Fivebridge",
+    "amount": 233.21,
+    "transactionType": "debit",
+    "category": "Entertainment",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/09/2019",
+    "description": "Pixoboo",
+    "amount": 48.98,
+    "transactionType": "debit",
+    "category": "Furnishings",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "06/09/2019",
+    "description": "Jabbersphere",
+    "amount": 70,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/10/2019",
+    "description": "Eabox",
+    "amount": 17.41,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/10/2019",
+    "description": "Layo",
+    "amount": 23.16,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/11/2019",
+    "description": "Viva",
+    "amount": 26.42,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/11/2019",
+    "description": "Oyope",
+    "amount": 140,
+    "transactionType": "debit",
+    "category": "Travel",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "6/12/2019",
+    "description": "Zazio",
+    "amount": 4.34,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/12/2019",
+    "description": "Dynabox",
+    "amount": 25.98,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/12/2019",
+    "description": "Innojam",
+    "amount": 147.5,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/12/2019",
+    "description": "Trudoo",
+    "amount": 10.82,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/13/2019",
+    "description": "Roomm",
+    "amount": 73.52,
+    "transactionType": "debit",
+    "category": "Home Services",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/13/2019",
+    "description": "Ozu",
+    "amount": 50,
+    "transactionType": "debit",
+    "category": "Health & Fitness",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/13/2019",
+    "description": "Innojam",
+    "amount": 4.38,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/13/2019",
+    "description": "Devpoint",
+    "amount": 11.97,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/13/2019",
+    "description": "Topicblab",
+    "amount": 13.34,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/13/2019",
+    "description": "Jabbersphere",
+    "amount": 137.41,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/14/2019",
+    "description": "Demizz",
+    "amount": 1708.33,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "6/14/2019",
+    "description": "Gigashots",
+    "amount": 42.42,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/15/2019",
+    "description": "Innojam",
+    "amount": 16,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/15/2019",
+    "description": "Innojam",
+    "amount": 15.95,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/15/2019",
+    "description": "Innojam",
+    "amount": 12.95,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/16/2019",
+    "description": "Kimia",
+    "amount": 20.62,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/16/2019",
+    "description": "Browseblab",
+    "amount": 24.75,
+    "transactionType": "debit",
+    "category": "Movies & DVDs",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/17/2019",
+    "description": "Brainverse",
+    "amount": 13.5,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/18/2019",
+    "description": "Edgepulse",
+    "amount": 30.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/18/2019",
+    "description": "Gigashots",
+    "amount": 36.04,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/18/2019",
+    "description": "InnoZ",
+    "amount": 9.74,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/19/2019",
+    "description": "Edgepulse",
+    "amount": 30.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/19/2019",
+    "description": "Viva",
+    "amount": 15.9,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/19/2019",
+    "description": "Teklist",
+    "amount": 8.75,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/20/2019",
+    "description": "Kwinu",
+    "amount": 55,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/20/2019",
+    "description": "Pixoboo",
+    "amount": 119.7,
+    "transactionType": "debit",
+    "category": "Clothing",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/21/2019",
+    "description": "Jabbersphere",
+    "amount": 45,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/21/2019",
+    "description": "Edgepulse",
+    "amount": 30.5,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/21/2019",
+    "description": "Viva",
+    "amount": 7.6,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/21/2019",
+    "description": "Ailane",
+    "amount": 54.73,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/21/2019",
+    "description": "Demimbu",
+    "amount": 24.97,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/22/2019",
+    "description": "Realfire",
+    "amount": 45.72,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/23/2019",
+    "description": "Jaxworks",
+    "amount": 56.36,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/23/2019",
+    "description": "Photobean",
+    "amount": 22,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/23/2019",
+    "description": "Innojam",
+    "amount": 20.7,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/24/2019",
+    "description": "Aimbo",
+    "amount": 19.35,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "6/24/2019",
+    "description": "Meembee",
+    "amount": 11.44,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "6/24/2019",
+    "description": "Jabbersphere",
+    "amount": 84.97,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/24/2019",
+    "description": "Eazzy",
+    "amount": 23.44,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/25/2019",
+    "description": "Trudeo",
+    "amount": 12.99,
+    "transactionType": "debit",
+    "category": "Movies & DVDs",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/26/2019",
+    "description": "Yodoo",
+    "amount": 14.14,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/26/2019",
+    "description": "Photojam",
+    "amount": 25,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/27/2019",
+    "description": "Viva",
+    "amount": 21.2,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/27/2019",
+    "description": "Flashdog",
+    "amount": 4.36,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/28/2019",
+    "description": "Demizz",
+    "amount": 1723.39,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "6/28/2019",
+    "description": "Realbuzz",
+    "amount": 91.46,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/28/2019",
+    "description": "LiveZ",
+    "amount": 30.41,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/28/2019",
+    "description": "Buzzshare",
+    "amount": 1150,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "6/29/2019",
+    "description": "Realbridge",
+    "amount": 8,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/29/2019",
+    "description": "Browsecat",
+    "amount": 24.6,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "6/30/2019",
+    "description": "Snaptags",
+    "amount": 12.65,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/01/2019",
+    "description": "Skyba",
+    "amount": 49,
+    "transactionType": "debit",
+    "category": "Gym",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/01/2019",
+    "description": "Viva",
+    "amount": 11.99,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/01/2019",
+    "description": "Mynte",
+    "amount": 65.86,
+    "transactionType": "debit",
+    "category": "Utilities",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "07/01/2019",
+    "description": "Realmix",
+    "amount": 13,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/01/2019",
+    "description": "Zoomcast",
+    "amount": 77.26,
+    "transactionType": "debit",
+    "category": "Internet",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "07/02/2019",
+    "description": "Viva",
+    "amount": 75.11,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/02/2019",
+    "description": "Snaptags",
+    "amount": 12.65,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/03/2019",
+    "description": "Jabbersphere",
+    "amount": 60,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/03/2019",
+    "description": "Yodoo",
+    "amount": 13,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/03/2019",
+    "description": "Feedfish",
+    "amount": 13.07,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/03/2019",
+    "description": "Youspan",
+    "amount": 83.49,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/04/2019",
+    "description": "Thoughtmix",
+    "amount": 41.24,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/05/2019",
+    "description": "Edgepulse",
+    "amount": 23,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/05/2019",
+    "description": "Cogidoo",
+    "amount": 46.69,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/06/2019",
+    "description": "Gigashots",
+    "amount": 9.58,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/07/2019",
+    "description": "Skyvu",
+    "amount": 14.16,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/07/2019",
+    "description": "Edgeblab",
+    "amount": 30.15,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/07/2019",
+    "description": "Gabtune",
+    "amount": 86.01,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/07/2019",
+    "description": "InnoZ",
+    "amount": 9.74,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/07/2019",
+    "description": "Photobean",
+    "amount": 127,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/07/2019",
+    "description": "InnoZ",
+    "amount": 107.96,
+    "transactionType": "debit",
+    "category": "Sporting Goods",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/07/2019",
+    "description": "Buzzster",
+    "amount": 48.85,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "07/08/2019",
+    "description": "Riffwire",
+    "amount": 15.79,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/10/2019",
+    "description": "Gabtype",
+    "amount": 30.76,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/10/2019",
+    "description": "Innojam",
+    "amount": 5.43,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/10/2019",
+    "description": "Vipe",
+    "amount": 15.08,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 2"
+  },
+  {
+    "date": "7/10/2019",
+    "description": "Bluezoom",
+    "amount": 3,
+    "transactionType": "debit",
+    "category": "ATM Fee",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "7/10/2019",
+    "description": "Eayo",
+    "amount": 80,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "7/10/2019",
+    "description": "Blogtags",
+    "amount": 55.82,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/10/2019",
+    "description": "Jaxspan",
+    "amount": 21.18,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/11/2019",
+    "description": "Omba",
+    "amount": 28.29,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/11/2019",
+    "description": "Youspan",
+    "amount": 80,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "7/12/2019",
+    "description": "Quamba",
+    "amount": 182.24,
+    "transactionType": "debit",
+    "category": "Entertainment",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/12/2019",
+    "description": "Gigashots",
+    "amount": 8.63,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/12/2019",
+    "description": "Skyvu",
+    "amount": 29.32,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/12/2019",
+    "description": "Gevee",
+    "amount": 10.07,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/12/2019",
+    "description": "Meemm",
+    "amount": 94.07,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/12/2019",
+    "description": "Youspan",
+    "amount": 80,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "7/13/2019",
+    "description": "Gigashots",
+    "amount": 6.48,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/13/2019",
+    "description": "Trunyx",
+    "amount": 7.6,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/13/2019",
+    "description": "Kwideo",
+    "amount": 80,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/13/2019",
+    "description": "Oloo",
+    "amount": 20.14,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/13/2019",
+    "description": "Dynabox",
+    "amount": 7.25,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/13/2019",
+    "description": "Abatz",
+    "amount": 59.8,
+    "transactionType": "debit",
+    "category": "Entertainment",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/13/2019",
+    "description": "Abatz",
+    "amount": 8.55,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/15/2019",
+    "description": "Demizz",
+    "amount": 1723.39,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "7/15/2019",
+    "description": "Topicblab",
+    "amount": 14.1,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/16/2019",
+    "description": "Viva",
+    "amount": 19.5,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/16/2019",
+    "description": "Skyvu",
+    "amount": 11.3,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/16/2019",
+    "description": "Zoombox",
+    "amount": 15.77,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/16/2019",
+    "description": "Muxo",
+    "amount": 16.1,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/17/2019",
+    "description": "Buzzster",
+    "amount": 397.5,
+    "transactionType": "debit",
+    "category": "Local Tax",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "7/17/2019",
+    "description": "Babbleset",
+    "amount": 24.5,
+    "transactionType": "debit",
+    "category": "Clothing",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/18/2019",
+    "description": "Oyoloo",
+    "amount": 30.46,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/18/2019",
+    "description": "Tanoodle",
+    "amount": 416.72,
+    "transactionType": "debit",
+    "category": "Air Travel",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/18/2019",
+    "description": "Realfire",
+    "amount": 21.53,
+    "transactionType": "debit",
+    "category": "Food & Dining",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/19/2019",
+    "description": "Skyvu",
+    "amount": 59.53,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/19/2019",
+    "description": "Teklist",
+    "amount": 3.5,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/20/2019",
+    "description": "Yodoo",
+    "amount": 22.77,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/20/2019",
+    "description": "Demimbu",
+    "amount": 18.01,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/20/2019",
+    "description": "Avamba",
+    "amount": 25.2,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/21/2019",
+    "description": "Edgepulse",
+    "amount": 23,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/21/2019",
+    "description": "Dynabox",
+    "amount": 11.49,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/22/2019",
+    "description": "Viva",
+    "amount": 22.62,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/22/2019",
+    "description": "Dynabox",
+    "amount": 13.71,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/23/2019",
+    "description": "Viva",
+    "amount": 25.22,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/25/2019",
+    "description": "Viva",
+    "amount": 11.06,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/25/2019",
+    "description": "Trudeo",
+    "amount": 12.99,
+    "transactionType": "debit",
+    "category": "Movies & DVDs",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/26/2019",
+    "description": "Tagfeed",
+    "amount": 56,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/26/2019",
+    "description": "Trudoo",
+    "amount": 13.16,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/27/2019",
+    "description": "Innojam",
+    "amount": 28.98,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/27/2019",
+    "description": "Topiclounge",
+    "amount": 18.98,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/27/2019",
+    "description": "Quimba",
+    "amount": 36.49,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/27/2019",
+    "description": "Brightbean",
+    "amount": 115.99,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/29/2019",
+    "description": "Viva",
+    "amount": 26.83,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/29/2019",
+    "description": "Fliptune",
+    "amount": 234.06,
+    "transactionType": "debit",
+    "category": "Clothing",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/29/2019",
+    "description": "Zoomcast",
+    "amount": 41.37,
+    "transactionType": "debit",
+    "category": "Internet",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "7/30/2019",
+    "description": "Trudoo",
+    "amount": 9,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/31/2019",
+    "description": "Demizz",
+    "amount": 1723.39,
+    "transactionType": "credit",
+    "category": "Paycheck",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "7/31/2019",
+    "description": "Brainverse",
+    "amount": 10.89,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/31/2019",
+    "description": "Mynte",
+    "amount": 48.31,
+    "transactionType": "debit",
+    "category": "Utilities",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "7/31/2019",
+    "description": "Gabcube",
+    "amount": 20.68,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "7/31/2019",
+    "description": "Mita",
+    "amount": 66.6,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/01/2019",
+    "description": "Skyba",
+    "amount": 49,
+    "transactionType": "debit",
+    "category": "Gym",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/01/2019",
+    "description": "Skyvu",
+    "amount": 40.77,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/01/2019",
+    "description": "Jabbersphere",
+    "amount": 76.24,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/01/2019",
+    "description": "Buzzshare",
+    "amount": 1150,
+    "transactionType": "debit",
+    "category": "Mortgage & Rent",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "08/02/2019",
+    "description": "Ailane",
+    "amount": 10.87,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/02/2019",
+    "description": "Youspan",
+    "amount": 83.49,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/03/2019",
+    "description": "Fatz",
+    "amount": 4.01,
+    "transactionType": "debit",
+    "category": "Fast Food",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/03/2019",
+    "description": "Ailane",
+    "amount": 16.54,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/04/2019",
+    "description": "Skyvu",
+    "amount": 31.5,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/04/2019",
+    "description": "Edgepulse",
+    "amount": 23,
+    "transactionType": "debit",
+    "category": "Public Transportation",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/04/2019",
+    "description": "Realbridge",
+    "amount": 11.42,
+    "transactionType": "debit",
+    "category": "Coffee Shops",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/04/2019",
+    "description": "Twitterwire",
+    "amount": 21.54,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/05/2019",
+    "description": "Viva",
+    "amount": 50.36,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/05/2019",
+    "description": "Viva",
+    "amount": 30.97,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/05/2019",
+    "description": "Youspan",
+    "amount": 70,
+    "transactionType": "debit",
+    "category": "Transfer",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "08/07/2019",
+    "description": "Skyvu",
+    "amount": 14.16,
+    "transactionType": "debit",
+    "category": "Shopping",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/07/2019",
+    "description": "Viva",
+    "amount": 4.99,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/07/2019",
+    "description": "Rhyzio",
+    "amount": 30.45,
+    "transactionType": "debit",
+    "category": "Groceries",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/08/2019",
+    "description": "Voomm",
+    "amount": 60,
+    "transactionType": "debit",
+    "category": "Cash & ATM",
+    "accountName": "Banking Account"
+  },
+  {
+    "date": "08/08/2019",
+    "description": "Rhybox",
+    "amount": 125.06,
+    "transactionType": "debit",
+    "category": "Gifts & Donations",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/09/2019",
+    "description": "Jabbersphere",
+    "amount": 13,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "08/09/2019",
+    "description": "Dynabox",
+    "amount": 20.29,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "8/10/2019",
+    "description": "Wordware",
+    "amount": 32.35,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "8/10/2019",
+    "description": "Dynabox",
+    "amount": 15.3,
+    "transactionType": "debit",
+    "category": "Rental Car & Taxi",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "8/10/2019",
+    "description": "Eazzy",
+    "amount": 25.15,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "8/11/2019",
+    "description": "Demimbu",
+    "amount": 60.52,
+    "transactionType": "debit",
+    "category": "Pharmacy",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "8/12/2019",
+    "description": "Eidel",
+    "amount": 76,
+    "transactionType": "debit",
+    "category": "Alcohol & Bars",
+    "accountName": "Credit Card 1"
+  },
+  {
+    "date": "8/12/2019",
+    "description": "Quatz",
+    "amount": 58.8,
+    "transactionType": "debit",
+    "category": "Restaurants",
+    "accountName": "Credit Card 2"
+  }
+]
