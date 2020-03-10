@@ -48,7 +48,10 @@ class App extends React.Component {
   handleBudgetSubmit() {
     //need to change route
     Axios.post('/', this.state.inputBudget)
-      .then(() => this.getCurrentBudget())
+      .then(() => {
+        this.getCurrentBudget();
+        this.setState({ budgetForm: true });
+      })
       .catch(err => {
         if (err) console.log(err);
       });
@@ -56,14 +59,23 @@ class App extends React.Component {
   getCurrentSpend(catName) {
     let total = 0;
     //iterate over the current transactions
-    //if it matches the catName, add to total
+    for (let i = 0; i < this.state.transactions.length; i++) {
+      //if it matches the catName, add to total
+      if (this.state.transactions[i].name === catName) {
+        total += this.state.transactions[i].amount;
+      }
+    }
     //set state equal to the new total
+    this.setState({ totalsToDate: { catName: total } });
   }
-  getCurrentBudget(catName) {
-    let total = 0;
-    //iterate over the current transactions
-    //if it matches the catName, add to total
-    //set state equal to the new total
+
+  //will have to update for different months
+  getCurrentBudget() {
+    Axios.get('/')
+      .then(data => this.setState({ budget: data }))
+      .catch(err => {
+        if (err) console.log(err);
+      });
   }
   getAllCurrentTransactions() {
     Axios.get('/')
@@ -74,6 +86,7 @@ class App extends React.Component {
   }
   componentDidMount() {
     this.getAllCurrentTransactions();
+    this.getCurrentBudget();
   }
   handleNewBudgetSubmit() {
     this.setState({ budgetForm: true });

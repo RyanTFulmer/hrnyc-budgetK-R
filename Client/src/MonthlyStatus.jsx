@@ -11,11 +11,7 @@ const MonthlyStatus = props => {
             <span>
               {eachBudgetType => props.getCurrentSpend(eachBudgetType) + '    '}
             </span>
-            <span>
-              {eachBudgetType =>
-                props.getCurrentBudget(eachBudgetType) + '    '
-              }
-            </span>
+            <span>{this.state.budget[eachBudgetType]}</span>
           </div>
         );
       })}
