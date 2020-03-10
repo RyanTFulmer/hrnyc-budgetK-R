@@ -1,16 +1,14 @@
-const router = require('express').Router()
+const router = require('express').Router();
 
-const { budget, actual} = require('./controllers')
+const { budget, actual } = require('./controllers');
 
 //budget function
-router.get('/budget',budget.findAll)
-router.post('/budget', budget.create)
-
-
+router.get('/budget', budget.findAll);
+router.post('/budget', budget.create);
 
 //actual function
-router.get('/actual', actual.findAll)
-router.post('/actual', actual.create)
-router.put('/actual:description',actual.update)
+router.get('/actual', actual.findAll);
+router.post('/actual', actual.create);
+router.put('/actual:description', actual.update);
 
-module.exports = router
+module.exports = router;

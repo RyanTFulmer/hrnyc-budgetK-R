@@ -28,26 +28,32 @@ class App extends React.Component {
     this.handleNewBudgetSubmit = this.handleNewBudgetSubmit.bind(this);
   }
 
+  //this function handles changes in the transaction input fields
   handleTransactionChange(event) {
     this.setState({
       inputTransactions: { [event.target.name]: event.target.value }
     });
   }
+
+  //this function handles changes in the budget input fields
   handleBudgetChange(event) {
     this.setState({
       inputBudget: { [event.target.name]: event.target.value }
     });
   }
+
+  //this function handles a new transaction submit
   handleTransactionSubmit() {
-    Axios.post('/', this.state.inputTransaction)
+    Axios.post('/actual', this.state.inputTransaction)
       .then(() => this.getAllCurrentTransactions())
       .catch(err => {
         if (err) console.log(err);
       });
   }
+
+  //this function handles a new budget submit
   handleBudgetSubmit() {
-    //need to change route
-    Axios.post('/', this.state.inputBudget)
+    Axios.post('/budget', this.state.inputBudget)
       .then(() => {
         this.getCurrentBudget();
         this.setState({ budgetForm: true });
@@ -56,6 +62,8 @@ class App extends React.Component {
         if (err) console.log(err);
       });
   }
+
+  //this function iterates through our state transactions to calculate the current spend for each
   getCurrentSpend(catName) {
     let total = 0;
     //iterate over the current transactions
@@ -69,21 +77,29 @@ class App extends React.Component {
     this.setState({ totalsToDate: { catName: total } });
   }
 
+  //this function gets the current budget from our database
   //will have to update for different months
   getCurrentBudget() {
-    Axios.get('/')
-      .then(data => this.setState({ budget: data }))
+    Axios.get('/budget')
+      .then(data => {
+        console.log('data back from server is ', data);
+        this.setState({ budget: data });
+      })
       .catch(err => {
         if (err) console.log(err);
       });
   }
+
+  //this function gets all transactions from the database
   getAllCurrentTransactions() {
-    Axios.get('/')
+    Axios.get('/actual')
       .then(data => this.setState({ transactions: data }))
       .catch(err => {
         if (err) console.log(err);
       });
   }
+
+  //once everything mounts, we pull the budget and all transactions
   componentDidMount() {
     this.getAllCurrentTransactions();
     this.getCurrentBudget();
