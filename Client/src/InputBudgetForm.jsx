@@ -6,7 +6,7 @@ const InputBudgetForm = props => {
       <form>
         <label>
           Month:
-          <input type="text" name="month" onChange={props.handleChange} />
+          <input type="text" name="month" onChange={props.handleBudgetChange} />
         </label>
         {props.TranactionTypes.map(newCategory => {
           return (
@@ -15,13 +15,13 @@ const InputBudgetForm = props => {
               <input
                 type="text"
                 name={newCategory}
-                onChange={props.handleChange}
+                onChange={props.handleBudgetChange}
               />
             </label>
           );
         })}
       </form>
-      <button onSubmit={props.handleSubmit}>Submit budget</button>
+      <button onSubmit={props.handleBudgetSubmit}>Submit budget</button>
     </div>
   );
 };
