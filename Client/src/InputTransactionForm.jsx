@@ -13,7 +13,7 @@ const InputTransactionForm = props => {
           />
         </label>
         <label>
-          {'  '}Description:
+          {'  '}Descraiption:
           <input
             type="text"
             name="TransactionDescription"
@@ -36,7 +36,7 @@ const InputTransactionForm = props => {
           onChange={props.handleTransactionChange}
           name="TransactionCategory"
         >
-          {props.state.TranactionTypes.map(newType => {
+          {props.transactionTypes.map(newType => {
             return <option value={newType}> ${newType} </option>; //might need to change!!
           })}
         </select>

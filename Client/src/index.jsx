@@ -99,69 +99,72 @@ class App extends React.Component {
     let createNewBudgetButton;
 
     if (budgetFormStatus) {
-      formToBeShown = <InputBudgetForm props={props} />;
+      formToBeShown = <InputBudgetForm transactionTypes = {this.state.transactionTypes} handleBudgetChange = {this.handleBudgetChange} handleBudgetSubmit = {this.handleBudgetSubmit} />;
       createNewBudgetButton = (
         <button onSubmit={this.handleNewBudgetSubmit}>
           Create a new budget for this month!
         </button>
       );
     } else {
-      formToBeShown = <InputTransactionForm props={props} />;
+      formToBeShown = <InputTransactionForm handleTransactionChange={this.handleTransactionChange} handleTransactionSubmit={this.handleTransactionSubmit} transactionTypes={this.state.transactionTypes}/>;
     }
+    var transTypes = [
+      'Air Travel',
+      'Alcohol & Bars',
+      'Amusement',
+      'ATM Fee',
+      'Cash & ATM',
+      'Clothing',
+      'Coffee Shops',
+      'Electronics & Software',
+      'Entertainment',
+      'Fast Food',
+      'Food & Dining',
+      'Furnishings',
+      'Gifts & Donations',
+      'Groceries',
+      'Gym',
+      'Health & Fitness',
+      'Home Services',
+      'Internet',
+      'Local Tax',
+      'Mortgage & Rent',
+      'Movies & DVDs',
+      'Music',
+      'Office Supplies',
+      'Parking',
+      'Paycheck',
+      'Personal Care',
+      'Pharmacy',
+      'Public Transportation',
+      'Rental Car & Taxi',
+      'Restaurants',
+      'Service Fee',
+      'Shopping',
+      'Sporting Goods',
+      'State Tax',
+      'Taxes',
+      'Transfer',
+      'Travel',
+      'Utilities',
+      'Vacation'
+    ];
 
     return (
       <div>
         <div>{createNewBudgetButton}</div>
         <div>{formToBeShown}</div>
         <div>
-          <MonthlyStatus props={props} />
+          <MonthlyStatus transactionTypes={this.state.transactionTypes} getCurrentSpend={this.getCurrentSpend} budget={this.state.budget}/>
         </div>
       </div>
     );
   }
 }
 
+
+
+
+
 var mountNode = document.getElementById('app');
 ReactDOM.render(<App />, mountNode);
-
-var transTypes = [
-  'Air Travel',
-  'Alcohol & Bars',
-  'Amusement',
-  'ATM Fee',
-  'Cash & ATM',
-  'Clothing',
-  'Coffee Shops',
-  'Electronics & Software',
-  'Entertainment',
-  'Fast Food',
-  'Food & Dining',
-  'Furnishings',
-  'Gifts & Donations',
-  'Groceries',
-  'Gym',
-  'Health & Fitness',
-  'Home Services',
-  'Internet',
-  'Local Tax',
-  'Mortgage & Rent',
-  'Movies & DVDs',
-  'Music',
-  'Office Supplies',
-  'Parking',
-  'Paycheck',
-  'Personal Care',
-  'Pharmacy',
-  'Public Transportation',
-  'Rental Car & Taxi',
-  'Restaurants',
-  'Service Fee',
-  'Shopping',
-  'Sporting Goods',
-  'State Tax',
-  'Taxes',
-  'Transfer',
-  'Travel',
-  'Utilities',
-  'Vacation'
-];

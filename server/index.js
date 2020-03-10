@@ -8,11 +8,11 @@ app.use(morgan("dev"));
 app.use(bodyParser.json());
 
 
+app.use(express.static(__dirname + '/../client/dist'));
 
 //use router here
 const router = require('./router')
 app.use('/app', router)
-
 
 app.listen(3000, function() {
   console.log("listening on port 3000!");
