@@ -23,11 +23,10 @@ module.exports = {
   actual: {
     create: (data) => {
       return actual.findOneAndUpdate(
-        {amount: data.amount},
+        {amount: data.amount,
+          description: data.description},
         {
-          description: data.description,
           date: data.date,
-
           transactionType: data.transactionType,
           category: data.category,
           accountName: data.accountName

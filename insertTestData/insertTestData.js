@@ -4,10 +4,10 @@ const {actual} = require('../db')
 var insertAlldata = function () {
   testdatas.map(data => {
     return actual.findOneAndUpdate(
-      { amount: data.amount},
       {
-
-        date: data.date,
+        amount: data.amount,
+        date: data.date},
+      {
         transactionType: data.transactionType,
         category: data.category,
         accountName: data.accountName,
