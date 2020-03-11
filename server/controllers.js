@@ -11,6 +11,8 @@ module.exports = {
       })
     },
     create: (req, res) => {
+
+
       const params = {
         category: req.body.category,
         month: req.body.month,
@@ -33,6 +35,7 @@ module.exports = {
     },
 
     create: (req, res) => {
+      console.log(req.body);
       const params = {
         date: req.body.date,
         amount: req.body.amount,

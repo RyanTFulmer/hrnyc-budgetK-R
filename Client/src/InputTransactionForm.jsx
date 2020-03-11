@@ -8,15 +8,15 @@ const InputTransactionForm = props => {
           Transaction Date:
           <input
             type="text"
-            name="TransactionDate"
+            name="date"
             onChange={props.handleTransactionChange}
           />
         </label>
         <label>
-          {'  '}Descraiption:
+          {'  '}Description:
           <input
             type="text"
-            name="TransactionDescription"
+            name="description"
             onChange={props.handleTransactionChange}
           />
         </label>
@@ -24,32 +24,32 @@ const InputTransactionForm = props => {
           {'  '}Amount:
           <input
             type="number"
-            name="TransactionAmount"
+            name="amount"
             onChange={props.handleTransactionChange}
           />
         </label>
-        <select onChange={props.handleTransactionChange} name="TransactionType">
+        <select onChange={props.handleTransactionChange} name="transactionType">
           <option value="credit">credit</option>
           <option value="debit">debit</option>
         </select>
         <select
           onChange={props.handleTransactionChange}
-          name="TransactionCategory"
+          name="category"
         >
           {props.transactionTypes.map(newType => {
-            return <option value={newType}> ${newType} </option>; //might need to change!!
+            return <option value={newType}> {newType} </option>; //might need to change!!
           })}
         </select>
         <label>
           {'  '}Account Name:
           <input
             type="text"
-            name="TransactionAccountName"
+            name="accountName"
             onChange={props.handleTransactionChange}
           />
         </label>
       </form>
-      <button onSubmit={props.handleTransactionSubmit}>
+      <button onClick={props.handleTransactionSubmit}>
         Submit transaction
       </button>
     </div>

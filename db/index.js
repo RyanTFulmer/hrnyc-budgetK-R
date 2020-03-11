@@ -24,7 +24,7 @@ mongoose.connection.on('disconnected', function(){
 
   var ActualSchema = new Schema({
     description:{ type: String},
-    date: { type: Date, default: Date.now },
+    date: { type:String },
     amount: Number,
     transactionType: String,
     category: String,

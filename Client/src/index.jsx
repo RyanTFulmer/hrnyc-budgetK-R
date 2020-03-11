@@ -11,10 +11,57 @@ class App extends React.Component {
     this.state = {
       budgetForm: false,
       budget: {},
-      transactionTypes: transTypes,
+      transactionTypes: [
+        'Air Travel',
+        'Alcohol & Bars',
+        'Amusement',
+        'ATM Fee',
+        'Cash & ATM',
+        'Clothing',
+        'Coffee Shops',
+        'Electronics & Software',
+        'Entertainment',
+        'Fast Food',
+        'Food & Dining',
+        'Furnishings',
+        'Gifts & Donations',
+        'Groceries',
+        'Gym',
+        'Health & Fitness',
+        'Home Services',
+        'Internet',
+        'Local Tax',
+        'Mortgage & Rent',
+        'Movies & DVDs',
+        'Music',
+        'Office Supplies',
+        'Parking',
+        'Paycheck',
+        'Personal Care',
+        'Pharmacy',
+        'Public Transportation',
+        'Rental Car & Taxi',
+        'Restaurants',
+        'Service Fee',
+        'Shopping',
+        'Sporting Goods',
+        'State Tax',
+        'Taxes',
+        'Transfer',
+        'Travel',
+        'Utilities',
+        'Vacation'
+      ],
       totalsToDate: {},
       transactions: [],
-      inputTransaction: {},
+      inputTransaction: {
+          date: '',
+          transactionType: '',
+          category: '',
+          accountName: '',
+          description: '',
+          amount: ''
+      },
       inputBudget: {}
     };
     this.handleTransactionChange = this.handleTransactionChange.bind(this);
@@ -28,26 +75,38 @@ class App extends React.Component {
     this.handleNewBudgetSubmit = this.handleNewBudgetSubmit.bind(this);
   }
 
+  //this function handles changes in the transaction input fields
   handleTransactionChange(event) {
+    console.log('this.state.inputTransaction',this.state.inputTransaction)
+    let tempObj = Object.assign({},this.state.inputTransaction)
+    tempObj[event.target.name] = event.target.value
+    console.log('tempObj is',tempObj)
     this.setState({
-      inputTransactions: { [event.target.name]: event.target.value }
-    });
-  }
+      inputTransaction: tempObj
+  })
+}
+
+  //this function handles changes in the budget input fields
   handleBudgetChange(event) {
     this.setState({
       inputBudget: { [event.target.name]: event.target.value }
     });
   }
+
+  //this function handles a new transaction submit
   handleTransactionSubmit() {
-    Axios.post('/', this.state.inputTransaction)
+    console.log(this.state.inputTransaction);
+
+    Axios.post('/app/actual', this.state.inputTransaction)
       .then(() => this.getAllCurrentTransactions())
       .catch(err => {
         if (err) console.log(err);
       });
   }
+
+  //this function handles a new budget submit
   handleBudgetSubmit() {
-    //need to change route
-    Axios.post('/', this.state.inputBudget)
+    Axios.post('app/budget', this.state.inputBudget)
       .then(() => {
         this.getCurrentBudget();
         this.setState({ budgetForm: true });
@@ -56,6 +115,8 @@ class App extends React.Component {
         if (err) console.log(err);
       });
   }
+
+  //this function iterates through our state transactions to calculate the current spend for each
   getCurrentSpend(catName) {
     let total = 0;
     //iterate over the current transactions
@@ -69,21 +130,37 @@ class App extends React.Component {
     this.setState({ totalsToDate: { catName: total } });
   }
 
+  //this function gets the current budget from our database
   //will have to update for different months
   getCurrentBudget() {
-    Axios.get('/')
-      .then(data => this.setState({ budget: data }))
+    console.log('inside get current budget');
+    Axios.get('/app/budget')
+      .then(data => {
+        console.log('data back from server is ', data);
+        this.setState({ budget: data });
+      })
       .catch(err => {
-        if (err) console.log(err);
+        if (err) console.log('get current budget error is', err);
       });
   }
+
+  //this function gets all transactions from the database
   getAllCurrentTransactions() {
-    Axios.get('/')
-      .then(data => this.setState({ transactions: data }))
+    console.log('inside getalltransactions');
+    Axios.get('/app/actual')
+      .then(data => {
+        console.log('transactions from server are', data);
+        this.setState({ transactions: data });
+        // if (!this.state.transactionTypes.contains(data.type)) {
+        //   this.
+        // }
+      })
       .catch(err => {
-        if (err) console.log(err);
+        if (err) console.log('error from getAllCurrentTransactions is', err);
       });
   }
+
+  //once everything mounts, we pull the budget and all transactions
   componentDidMount() {
     this.getAllCurrentTransactions();
     this.getCurrentBudget();
@@ -99,72 +176,43 @@ class App extends React.Component {
     let createNewBudgetButton;
 
     if (budgetFormStatus) {
-      formToBeShown = <InputBudgetForm transactionTypes = {this.state.transactionTypes} handleBudgetChange = {this.handleBudgetChange} handleBudgetSubmit = {this.handleBudgetSubmit} />;
+      formToBeShown = (
+        <InputBudgetForm
+          transactionTypes={this.state.transactionTypes}
+          handleBudgetChange={this.handleBudgetChange}
+          handleBudgetSubmit={this.handleBudgetSubmit}
+        />
+      );
       createNewBudgetButton = (
         <button onSubmit={this.handleNewBudgetSubmit}>
           Create a new budget for this month!
         </button>
       );
     } else {
-      formToBeShown = <InputTransactionForm handleTransactionChange={this.handleTransactionChange} handleTransactionSubmit={this.handleTransactionSubmit} transactionTypes={this.state.transactionTypes}/>;
+      formToBeShown = (
+        <InputTransactionForm
+          handleTransactionChange={this.handleTransactionChange}
+          handleTransactionSubmit={this.handleTransactionSubmit}
+          transactionTypes={this.state.transactionTypes}
+        />
+      );
     }
-    // var transTypes = [
-    //   'Air Travel',
-    //   'Alcohol & Bars',
-    //   'Amusement',
-    //   'ATM Fee',
-    //   'Cash & ATM',
-    //   'Clothing',
-    //   'Coffee Shops',
-    //   'Electronics & Software',
-    //   'Entertainment',
-    //   'Fast Food',
-    //   'Food & Dining',
-    //   'Furnishings',
-    //   'Gifts & Donations',
-    //   'Groceries',
-    //   'Gym',
-    //   'Health & Fitness',
-    //   'Home Services',
-    //   'Internet',
-    //   'Local Tax',
-    //   'Mortgage & Rent',
-    //   'Movies & DVDs',
-    //   'Music',
-    //   'Office Supplies',
-    //   'Parking',
-    //   'Paycheck',
-    //   'Personal Care',
-    //   'Pharmacy',
-    //   'Public Transportation',
-    //   'Rental Car & Taxi',
-    //   'Restaurants',
-    //   'Service Fee',
-    //   'Shopping',
-    //   'Sporting Goods',
-    //   'State Tax',
-    //   'Taxes',
-    //   'Transfer',
-    //   'Travel',
-    //   'Utilities',
-    //   'Vacation'
-    // ];
 
     return (
       <div>
         <div>{createNewBudgetButton}</div>
         <div>{formToBeShown}</div>
         <div>
-          <MonthlyStatus transactionTypes={this.state.transactionTypes} getCurrentSpend={this.getCurrentSpend} budget={this.state.budget}/>
+          <MonthlyStatus
+            transactionTypes={this.state.transactionTypes}
+            getCurrentSpend={this.getCurrentSpend}
+            budget={this.state.budget}
+          />
         </div>
       </div>
     );
   }
 }
-
-
-
-
 
 var mountNode = document.getElementById('app');
 ReactDOM.render(<App />, mountNode);
