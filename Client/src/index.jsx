@@ -4,6 +4,7 @@ import InputBudgetForm from './InputBudgetForm.jsx';
 import InputTransactionForm from './InputTransactionForm.jsx';
 import MonthlyStatus from './MonthlyStatus.jsx';
 import Axios from 'axios';
+import {scaleLinear} from "d3-scale";
 
 class App extends React.Component {
   constructor(props) {
@@ -11,47 +12,7 @@ class App extends React.Component {
     this.state = {
       budgetForm: false,
       budget: {},
-      transactionTypes: [
-        'Air Travel',
-        'Alcohol & Bars',
-        'Amusement',
-        'ATM Fee',
-        'Cash & ATM',
-        'Clothing',
-        'Coffee Shops',
-        'Electronics & Software',
-        'Entertainment',
-        'Fast Food',
-        'Food & Dining',
-        'Furnishings',
-        'Gifts & Donations',
-        'Groceries',
-        'Gym',
-        'Health & Fitness',
-        'Home Services',
-        'Internet',
-        'Local Tax',
-        'Mortgage & Rent',
-        'Movies & DVDs',
-        'Music',
-        'Office Supplies',
-        'Parking',
-        'Paycheck',
-        'Personal Care',
-        'Pharmacy',
-        'Public Transportation',
-        'Rental Car & Taxi',
-        'Restaurants',
-        'Service Fee',
-        'Shopping',
-        'Sporting Goods',
-        'State Tax',
-        'Taxes',
-        'Transfer',
-        'Travel',
-        'Utilities',
-        'Vacation'
-      ],
+      transactionTypes: [],
       totalsToDate: {},
       transactions: [],
       inputTransaction: {
@@ -62,7 +23,8 @@ class App extends React.Component {
           description: '',
           amount: ''
       },
-      inputBudget: {}
+      inputBudget: {},
+      showGraph:false
     };
     this.handleTransactionChange = this.handleTransactionChange.bind(this);
     this.handleBudgetChange = this.handleBudgetChange.bind(this);
@@ -200,14 +162,23 @@ class App extends React.Component {
 
     return (
       <div>
-        <div>{createNewBudgetButton}</div>
+        <h1 className="title w3-display-topmiddle w3-panel w3-padding-16">Budget</h1>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className = "w3-container w3-margin-bottom w3-border">{createNewBudgetButton}</div>
+        <br></br>
         <div>{formToBeShown}</div>
-        <div>
+        <br></br>
+        <div >
           <MonthlyStatus
             transactionTypes={this.state.transactionTypes}
             getCurrentSpend={this.getCurrentSpend}
             budget={this.state.budget}
           />
+        </div>
+        <div>
+        <button className="button is-success is-medium is-rounded w3-display-middle">Show Graph</button>
         </div>
       </div>
     );

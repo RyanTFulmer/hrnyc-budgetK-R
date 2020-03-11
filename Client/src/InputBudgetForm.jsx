@@ -21,7 +21,7 @@ const InputBudgetForm = props => {
           );
         })}
       </form>
-      <button onSubmit={props.handleBudgetSubmit}>Submit budget</button>
+      <button onSubmit={props.handleBudgetSubmit}  w3-display-middle>Submit budget</button>
     </div>
   );
 };
