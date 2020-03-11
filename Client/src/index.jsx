@@ -11,7 +11,47 @@ class App extends React.Component {
     this.state = {
       budgetForm: false,
       budget: {},
-      transactionTypes: transTypes,
+      transactionTypes: [
+        'Air Travel',
+        'Alcohol & Bars',
+        'Amusement',
+        'ATM Fee',
+        'Cash & ATM',
+        'Clothing',
+        'Coffee Shops',
+        'Electronics & Software',
+        'Entertainment',
+        'Fast Food',
+        'Food & Dining',
+        'Furnishings',
+        'Gifts & Donations',
+        'Groceries',
+        'Gym',
+        'Health & Fitness',
+        'Home Services',
+        'Internet',
+        'Local Tax',
+        'Mortgage & Rent',
+        'Movies & DVDs',
+        'Music',
+        'Office Supplies',
+        'Parking',
+        'Paycheck',
+        'Personal Care',
+        'Pharmacy',
+        'Public Transportation',
+        'Rental Car & Taxi',
+        'Restaurants',
+        'Service Fee',
+        'Shopping',
+        'Sporting Goods',
+        'State Tax',
+        'Taxes',
+        'Transfer',
+        'Travel',
+        'Utilities',
+        'Vacation'
+      ],
       totalsToDate: {},
       transactions: [],
       inputTransaction: {},
@@ -98,6 +138,9 @@ class App extends React.Component {
       .then(data => {
         console.log('transactions from server are', data);
         this.setState({ transactions: data });
+        // if (!this.state.transactionTypes.contains(data.type)) {
+        //   this.
+        // }
       })
       .catch(err => {
         if (err) console.log('error from getAllCurrentTransactions is', err);
@@ -120,72 +163,43 @@ class App extends React.Component {
     let createNewBudgetButton;
 
     if (budgetFormStatus) {
-      formToBeShown = <InputBudgetForm transactionTypes = {this.state.transactionTypes} handleBudgetChange = {this.handleBudgetChange} handleBudgetSubmit = {this.handleBudgetSubmit} />;
+      formToBeShown = (
+        <InputBudgetForm
+          transactionTypes={this.state.transactionTypes}
+          handleBudgetChange={this.handleBudgetChange}
+          handleBudgetSubmit={this.handleBudgetSubmit}
+        />
+      );
       createNewBudgetButton = (
         <button onSubmit={this.handleNewBudgetSubmit}>
           Create a new budget for this month!
         </button>
       );
     } else {
-      formToBeShown = <InputTransactionForm handleTransactionChange={this.handleTransactionChange} handleTransactionSubmit={this.handleTransactionSubmit} transactionTypes={this.state.transactionTypes}/>;
+      formToBeShown = (
+        <InputTransactionForm
+          handleTransactionChange={this.handleTransactionChange}
+          handleTransactionSubmit={this.handleTransactionSubmit}
+          transactionTypes={this.state.transactionTypes}
+        />
+      );
     }
-    var transTypes = [
-      'Air Travel',
-      'Alcohol & Bars',
-      'Amusement',
-      'ATM Fee',
-      'Cash & ATM',
-      'Clothing',
-      'Coffee Shops',
-      'Electronics & Software',
-      'Entertainment',
-      'Fast Food',
-      'Food & Dining',
-      'Furnishings',
-      'Gifts & Donations',
-      'Groceries',
-      'Gym',
-      'Health & Fitness',
-      'Home Services',
-      'Internet',
-      'Local Tax',
-      'Mortgage & Rent',
-      'Movies & DVDs',
-      'Music',
-      'Office Supplies',
-      'Parking',
-      'Paycheck',
-      'Personal Care',
-      'Pharmacy',
-      'Public Transportation',
-      'Rental Car & Taxi',
-      'Restaurants',
-      'Service Fee',
-      'Shopping',
-      'Sporting Goods',
-      'State Tax',
-      'Taxes',
-      'Transfer',
-      'Travel',
-      'Utilities',
-      'Vacation'
-    ];
 
     return (
       <div>
         <div>{createNewBudgetButton}</div>
         <div>{formToBeShown}</div>
         <div>
-          <MonthlyStatus transactionTypes={this.state.transactionTypes} getCurrentSpend={this.getCurrentSpend} budget={this.state.budget}/>
+          <MonthlyStatus
+            transactionTypes={this.state.transactionTypes}
+            getCurrentSpend={this.getCurrentSpend}
+            budget={this.state.budget}
+          />
         </div>
       </div>
     );
   }
 }
-
-
-
-
 
 var mountNode = document.getElementById('app');
 ReactDOM.render(<App />, mountNode);
