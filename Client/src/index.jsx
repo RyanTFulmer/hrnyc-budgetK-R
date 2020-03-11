@@ -54,7 +54,14 @@ class App extends React.Component {
       ],
       totalsToDate: {},
       transactions: [],
-      inputTransaction: {},
+      inputTransaction: {
+          date: '',
+          transactionType: '',
+          category: '',
+          accountName: '',
+          description: '',
+          amount: ''
+      },
       inputBudget: {}
     };
     this.handleTransactionChange = this.handleTransactionChange.bind(this);
@@ -70,10 +77,14 @@ class App extends React.Component {
 
   //this function handles changes in the transaction input fields
   handleTransactionChange(event) {
+    console.log('this.state.inputTransaction',this.state.inputTransaction)
+    let tempObj = Object.assign({},this.state.inputTransaction)
+    tempObj[event.target.name] = event.target.value
+    console.log('tempObj is',tempObj)
     this.setState({
-      inputTransactions: { [event.target.name]: event.target.value }
-    });
-  }
+      inputTransaction: tempObj
+  })
+}
 
   //this function handles changes in the budget input fields
   handleBudgetChange(event) {
@@ -84,7 +95,9 @@ class App extends React.Component {
 
   //this function handles a new transaction submit
   handleTransactionSubmit() {
-    Axios.post('/actual', this.state.inputTransaction)
+    console.log(this.state.inputTransaction);
+
+    Axios.post('/app/actual', this.state.inputTransaction)
       .then(() => this.getAllCurrentTransactions())
       .catch(err => {
         if (err) console.log(err);
@@ -93,7 +106,7 @@ class App extends React.Component {
 
   //this function handles a new budget submit
   handleBudgetSubmit() {
-    Axios.post('/budget', this.state.inputBudget)
+    Axios.post('app/budget', this.state.inputBudget)
       .then(() => {
         this.getCurrentBudget();
         this.setState({ budgetForm: true });
@@ -121,7 +134,7 @@ class App extends React.Component {
   //will have to update for different months
   getCurrentBudget() {
     console.log('inside get current budget');
-    Axios.get('/budget')
+    Axios.get('/app/budget')
       .then(data => {
         console.log('data back from server is ', data);
         this.setState({ budget: data });
@@ -134,7 +147,7 @@ class App extends React.Component {
   //this function gets all transactions from the database
   getAllCurrentTransactions() {
     console.log('inside getalltransactions');
-    Axios.get('/actual')
+    Axios.get('/app/actual')
       .then(data => {
         console.log('transactions from server are', data);
         this.setState({ transactions: data });
