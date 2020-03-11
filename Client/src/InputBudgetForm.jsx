@@ -8,7 +8,7 @@ const InputBudgetForm = props => {
           Month:
           <input type="text" name="month" onChange={props.handleBudgetChange} />
         </label>
-        {props.TranactionTypes.map(newCategory => {
+        {props.transactionTypes.map(newCategory => {
           return (
             <label>
               {newCategory}
