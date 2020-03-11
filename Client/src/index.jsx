@@ -80,22 +80,27 @@ class App extends React.Component {
   //this function gets the current budget from our database
   //will have to update for different months
   getCurrentBudget() {
+    console.log('inside get current budget');
     Axios.get('/budget')
       .then(data => {
         console.log('data back from server is ', data);
         this.setState({ budget: data });
       })
       .catch(err => {
-        if (err) console.log(err);
+        if (err) console.log('get current budget error is', err);
       });
   }
 
   //this function gets all transactions from the database
   getAllCurrentTransactions() {
+    console.log('inside getalltransactions');
     Axios.get('/actual')
-      .then(data => this.setState({ transactions: data }))
+      .then(data => {
+        console.log('transactions from server are', data);
+        this.setState({ transactions: data });
+      })
       .catch(err => {
-        if (err) console.log(err);
+        if (err) console.log('error from getAllCurrentTransactions is', err);
       });
   }
 
