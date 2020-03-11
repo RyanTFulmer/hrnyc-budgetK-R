@@ -10,18 +10,20 @@ const InputBudgetForm = props => {
         </label>
         {props.transactionTypes.map(newCategory => {
           return (
-            <label>
-              {newCategory}
-              <input
-                type="text"
-                name={newCategory}
-                onChange={props.handleBudgetChange}
-              />
-            </label>
+            <div>
+              <label>
+                {newCategory}
+                <input
+                  type="number"
+                  name={newCategory}
+                  onChange={props.handleBudgetChange}
+                />
+              </label>
+            </div>
           );
         })}
       </form>
-      <button onSubmit={props.handleBudgetSubmit}>Submit budget</button>
+      <button onClick={props.handleBudgetSubmit}>Submit budget</button>
     </div>
   );
 };
