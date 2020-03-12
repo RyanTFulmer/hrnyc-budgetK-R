@@ -1,10 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import InputBudgetForm from './InputBudgetForm.jsx';
-import InputTransactionForm from './InputTransactionForm.jsx';
-import MonthlyStatus from './MonthlyStatus.jsx';
-import Axios from 'axios';
-import {scaleLinear} from "d3-scale";
+import React from "react";
+import ReactDOM from "react-dom";
+import InputBudgetForm from "./InputBudgetForm.jsx";
+import InputTransactionForm from "./InputTransactionForm.jsx";
+import MonthlyStatus from "./MonthlyStatus.jsx";
+import Axios from "axios";
+import { scaleLinear } from "d3-scale";
+import CheckTransaction from "./CheckTransaction.jsx";
+import ShowallTransaction from "./ShowallTransaction.jsx";
 
 class App extends React.Component {
   constructor(props) {
@@ -12,19 +14,20 @@ class App extends React.Component {
     this.state = {
       budgetForm: false,
       budget: {},
-      transactionTypes: [],
+      transactionTypes: ["Mortgage & Rent","Restaurants","Gym","Shopping","Coffee Shops","Rental Car & Taxi,Public", "Transportation","Groceries","Food & Dining","Cash & ATM","ATM Fee","Fast Food","Clothing,Pharmacy"],
       totalsToDate: {},
       transactions: [],
       inputTransaction: {
-          date: '',
-          transactionType: '',
-          category: '',
-          accountName: '',
-          description: '',
-          amount: ''
+        date: "",
+        transactionType: "",
+        category: "",
+        accountName: "",
+        description: "",
+        amount: ""
       },
       inputBudget: {},
-      showGraph:false
+      showGraph: false,
+      showTransaction: false
     };
     this.handleTransactionChange = this.handleTransactionChange.bind(this);
     this.handleBudgetChange = this.handleBudgetChange.bind(this);
@@ -35,32 +38,39 @@ class App extends React.Component {
     this.getAllCurrentTransactions = this.getAllCurrentTransactions.bind(this);
     this.componentDidMount = this.componentDidMount.bind(this);
     this.handleNewBudgetSubmit = this.handleNewBudgetSubmit.bind(this);
+    this.handleTransactionShow = this.handleTransactionShow.bind(this);
   }
 
   //this function handles changes in the transaction input fields
   handleTransactionChange(event) {
-    console.log('this.state.inputTransaction',this.state.inputTransaction)
-    let tempObj = Object.assign({},this.state.inputTransaction)
-    tempObj[event.target.name] = event.target.value
-    console.log('tempObj is',tempObj)
+    let tempObj = Object.assign({}, this.state.inputTransaction);
+    tempObj[event.target.name] = event.target.value;
     this.setState({
       inputTransaction: tempObj
-  })
-}
+    });
+  }
 
   //this function handles changes in the budget input fields
   handleBudgetChange(event) {
+    console.log("inside handle budget change");
+    let tempObj = Object.assign({}, this.state.inputBudget);
+    tempObj[event.target.name] = event.target.value;
     this.setState({
-      inputBudget: { [event.target.name]: event.target.value }
+      inputBudget: tempObj
     });
+    console.log("the state is", this.state.inputBudget);
   }
 
   //this function handles a new transaction submit
   handleTransactionSubmit() {
-    console.log(this.state.inputTransaction);
-
-    Axios.post('/app/actual', this.state.inputTransaction)
-      .then(() => this.getAllCurrentTransactions())
+    Axios.post("/app/actual", this.state.inputTransaction)
+      .then(
+        () => this.getAllCurrentTransactions(),
+        this.setState({
+          showTransaction: !this.state.showTransaction,
+          inputTransaction: {}
+        })
+      )
       .catch(err => {
         if (err) console.log(err);
       });
@@ -68,10 +78,24 @@ class App extends React.Component {
 
   //this function handles a new budget submit
   handleBudgetSubmit() {
-    Axios.post('app/budget', this.state.inputBudget)
+    let newBudgetDataArray = [];
+    let objectKeys = Object.keys(this.state.inputBudget);
+    for (let i in this.state.inputBudget) {
+      if (objectKeys[i] !== "month") {
+        let eachCategoryObj = {};
+        eachCategoryObj["month"] = this.state.inputBudget.month;
+        eachCategoryObj["category"] = objectKeys[i];
+        eachCategoryObj["amount"] = this.state.inputBudget[i];
+        newBudgetDataArray.push(eachCategoryObj);
+      }
+    }
+
+    console.log("newBudgetDataArray", newBudgetDataArray);
+    Axios.post("/app/budget", this.state.inputBudget)
       .then(() => {
         this.getCurrentBudget();
         this.setState({ budgetForm: true });
+        this.getAllCurrentTransactions();
       })
       .catch(err => {
         if (err) console.log(err);
@@ -95,40 +119,44 @@ class App extends React.Component {
   //this function gets the current budget from our database
   //will have to update for different months
   getCurrentBudget() {
-    console.log('inside get current budget');
-    Axios.get('/app/budget')
-      .then(data => {
-        console.log('data back from server is ', data);
+    console.log("inside get current budget");
+    Axios.get("/app/budget")
+      .then(response => {
+        console.log("data back from server is ", response.data);
         this.setState({ budget: data });
       })
       .catch(err => {
-        if (err) console.log('get current budget error is', err);
+        if (err) console.log("get current budget error is", err);
       });
   }
 
   //this function gets all transactions from the database
   getAllCurrentTransactions() {
-    console.log('inside getalltransactions');
-    Axios.get('/app/actual')
-      .then(data => {
-        console.log('transactions from server are', data);
-        this.setState({ transactions: data });
+    console.log("inside getalltransactions");
+    Axios.get("/app/actual")
+      .then(response => {
+        console.log("transactions from server are", response.data);
+        this.setState({ transactions: response.data });
         // if (!this.state.transactionTypes.contains(data.type)) {
         //   this.
         // }
       })
       .catch(err => {
-        if (err) console.log('error from getAllCurrentTransactions is', err);
+        if (err) console.log("error from getAllCurrentTransactions is", err);
       });
   }
 
   //once everything mounts, we pull the budget and all transactions
   componentDidMount() {
-    this.getAllCurrentTransactions();
     this.getCurrentBudget();
   }
   handleNewBudgetSubmit() {
     this.setState({ budgetForm: true });
+  }
+
+  //show transaction function
+  handleTransactionShow() {
+    this.setState({ showTransaction: !this.state.showTransaction });
   }
 
   render() {
@@ -137,7 +165,7 @@ class App extends React.Component {
     let formToBeShown;
     let createNewBudgetButton;
 
-    if (budgetFormStatus) {
+    if (!budgetFormStatus) {
       formToBeShown = (
         <InputBudgetForm
           transactionTypes={this.state.transactionTypes}
@@ -154,7 +182,7 @@ class App extends React.Component {
       formToBeShown = (
         <InputTransactionForm
           handleTransactionChange={this.handleTransactionChange}
-          handleTransactionSubmit={this.handleTransactionSubmit}
+          handleTransactionShow={this.handleTransactionShow}
           transactionTypes={this.state.transactionTypes}
         />
       );
@@ -162,28 +190,54 @@ class App extends React.Component {
 
     return (
       <div>
-        <h1 className="title w3-display-topmiddle w3-panel w3-padding-16">Budget</h1>
+        <h1 className="title w3-display-topmiddle w3-panel w3-padding-16">
+          Budget
+        </h1>
         <br></br>
         <br></br>
         <br></br>
-        <div className = "w3-container w3-margin-bottom w3-border">{createNewBudgetButton}</div>
+        <div className="w3-container w3-margin-bottom w3-border">
+          {createNewBudgetButton}
+        </div>
         <br></br>
         <div>{formToBeShown}</div>
         <br></br>
-        <div >
+        <div>
           <MonthlyStatus
             transactionTypes={this.state.transactionTypes}
             getCurrentSpend={this.getCurrentSpend}
             budget={this.state.budget}
           />
         </div>
+        <div className="w3-display-topright">
+          <br></br>
+          <br></br>
+          <br></br>
+          <div>
+            {this.state.showTransaction ? (
+              <CheckTransaction
+                handleTransactionSubmit={this.handleTransactionSubmit}
+                inputTransaction={this.state.inputTransaction}
+                handleTransactionShow={this.handleTransactionShow}
+              />
+            ) : null}
+          </div>
+        </div>
         <div>
-        <button className="button is-success is-medium is-rounded w3-display-middle">Show Graph</button>
+          <button className="button is-success is-medium is-rounded w3-display-bottomleft">
+            Show Graph
+          </button>
+        </div>
+        <div className="w3-display-topmiddle">
+          <br></br>
+          <br></br>
+          <br></br>
+          <ShowallTransaction transactions={this.state.transactions} />
         </div>
       </div>
     );
   }
 }
 
-var mountNode = document.getElementById('app');
+var mountNode = document.getElementById("app");
 ReactDOM.render(<App />, mountNode);

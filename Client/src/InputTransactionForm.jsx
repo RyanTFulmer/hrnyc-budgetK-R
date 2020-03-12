@@ -47,7 +47,7 @@ const InputTransactionForm = props => {
             </div>
           </div>
         </div>
-            description:
+            category:
                 <br></br>
         <div class="field">
           <div class="control">
@@ -77,9 +77,9 @@ const InputTransactionForm = props => {
       <br></br>
       <i class="fa fa-arrow-right"></i>
       <button
-        onClick={props.handleTransactionSubmit}
+        onClick={props.handleTransactionShow}
         class="button is-success is-inverted">
-        Submit transaction
+        Check transaction
       </button>
     </div>
   );
