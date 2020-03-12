@@ -1,12 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import InputBudgetForm from "./InputBudgetForm.jsx";
-import InputTransactionForm from "./InputTransactionForm.jsx";
-import MonthlyStatus from "./MonthlyStatus.jsx";
-import Axios from "axios";
-import { scaleLinear } from "d3-scale";
-import CheckTransaction from "./CheckTransaction.jsx";
-import ShowallTransaction from "./ShowallTransaction.jsx";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import InputBudgetForm from './InputBudgetForm.jsx';
+import InputTransactionForm from './InputTransactionForm.jsx';
+import MonthlyStatus from './MonthlyStatus.jsx';
+import Axios from 'axios';
+import { scaleLinear } from 'd3-scale';
+import CheckTransaction from './CheckTransaction.jsx';
+import ShowallTransaction from './ShowallTransaction.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -14,7 +14,21 @@ class App extends React.Component {
     this.state = {
       budgetForm: false,
       budget: {},
-      transactionTypes: ["Mortgage & Rent","Restaurants","Gym","Shopping","Coffee Shops","Rental Car & Taxi,Public", "Transportation","Groceries","Food & Dining","Cash & ATM","ATM Fee","Fast Food","Clothing,Pharmacy"],
+      transactionTypes: [
+        'Mortgage & Rent',
+        'Restaurants',
+        'Gym',
+        'Shopping',
+        'Coffee Shops',
+        'Rental Car & Taxi,Public',
+        'Transportation',
+        'Groceries',
+        'Food & Dining',
+        'Cash & ATM',
+        'ATM Fee',
+        'Fast Food',
+        'Clothing,Pharmacy'
+      ],
       totalsToDate: {},
       transactions: [],
       inputTransaction: {
@@ -38,7 +52,7 @@ class App extends React.Component {
     this.getCurrentBudget = this.getCurrentBudget.bind(this);
     this.getAllCurrentTransactions = this.getAllCurrentTransactions.bind(this);
     this.componentDidMount = this.componentDidMount.bind(this);
-    this.handleNewBudgetSubmit = this.handleNewBudgetSubmit.bind(this)
+    this.handleNewBudgetSubmit = this.handleNewBudgetSubmit.bind(this);
     this.handleTransactionShow = this.handleTransactionShow.bind(this);
   }
 
@@ -53,7 +67,6 @@ class App extends React.Component {
 
   //this function handles changes in the budget input fields
   handleBudgetChange(event) {
-
     let tempObj = Object.assign({}, this.state.inputBudget);
     tempObj[event.target.name] = event.target.value;
     this.setState({
@@ -63,14 +76,14 @@ class App extends React.Component {
 
   //this function handles a new transaction submit
   handleTransactionSubmit() {
-    Axios.post("/app/actual", this.state.inputTransaction)
-      .then(
-        () => {this.getAllCurrentTransactions()
+    Axios.post('/app/actual', this.state.inputTransaction)
+      .then(() => {
+        this.getAllCurrentTransactions();
         this.setState({
           showTransaction: !this.state.showTransaction,
           inputTransaction: {}
-        })
-        })
+        });
+      })
       .catch(err => {
         if (err) console.log(err);
       });
@@ -82,7 +95,6 @@ class App extends React.Component {
 
     for (var i in this.state.inputBudget) {
       if (i !== 'month') {
-
         let eachCategoryObj = {};
         eachCategoryObj['month'] = this.state.inputBudget.month;
         eachCategoryObj['category'] = i;
@@ -109,7 +121,6 @@ class App extends React.Component {
         if (err) console.log(err);
       });
   }
-  
 
   //this function iterates through our state transactions to calculate the current spend for each
   getCurrentSpend(catName) {
@@ -142,7 +153,8 @@ class App extends React.Component {
   getAllCurrentTransactions() {
     Axios.get('/app/actual')
       .then(data => {
-        this.setState({ transactions: data });
+        console.log('data from transactions', data);
+        this.setState({ transactions: data.data });
         let typesArray = [];
         data.data.forEach(eachTransaction => {
           if (!typesArray.includes(eachTransaction.category)) {
@@ -152,7 +164,7 @@ class App extends React.Component {
         this.setState({ transactionTypes: typesArray });
       })
       .catch(err => {
-        if (err) console.log("error from getAllCurrentTransactions is", err);
+        if (err) console.log('error from getAllCurrentTransactions is', err);
       });
   }
 
@@ -249,5 +261,5 @@ class App extends React.Component {
   }
 }
 
-var mountNode = document.getElementById("app");
+var mountNode = document.getElementById('app');
 ReactDOM.render(<App />, mountNode);

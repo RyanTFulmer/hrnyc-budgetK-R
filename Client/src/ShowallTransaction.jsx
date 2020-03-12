@@ -11,11 +11,11 @@ const ShowAllTransaction = ({ transactions }) => {
                 <section class="section">
                   <div class="container">
                     <h2 class="subtitle">
-                      On day{' '}
+                      On{' '}
                       <strong className="w3-brown">
                         {transaction.date.slice(0, 10)}
                       </strong>
-                      ,you spend{' '}
+                      ,you spent{' '}
                       <strong className="w3-brown">{transaction.amount}</strong>
                       dollars on{' '}
                       <strong className="w3-brown">
