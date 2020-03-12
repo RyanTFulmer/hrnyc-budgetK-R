@@ -18,12 +18,21 @@ class App extends React.Component {
       totalsToDate: {},
       transactions: [],
       inputTransaction: {
+<<<<<<< HEAD
         date: "",
         transactionType: "",
         category: "",
         accountName: "",
         description: "",
         amount: ""
+=======
+        date: '',
+        transactionType: '',
+        category: '',
+        accountName: '',
+        description: '',
+        amount: ''
+>>>>>>> 362815f07588caef670de0ce31527966728fd752
       },
       inputBudget: {},
       showGraph: false,
@@ -52,17 +61,26 @@ class App extends React.Component {
 
   //this function handles changes in the budget input fields
   handleBudgetChange(event) {
+<<<<<<< HEAD
     console.log("inside handle budget change");
+=======
+    console.log('inside handle budget change');
+>>>>>>> 362815f07588caef670de0ce31527966728fd752
     let tempObj = Object.assign({}, this.state.inputBudget);
     tempObj[event.target.name] = event.target.value;
     this.setState({
       inputBudget: tempObj
     });
+<<<<<<< HEAD
     console.log("the state is", this.state.inputBudget);
+=======
+    console.log('the state is', this.state.inputBudget);
+>>>>>>> 362815f07588caef670de0ce31527966728fd752
   }
 
   //this function handles a new transaction submit
   handleTransactionSubmit() {
+<<<<<<< HEAD
     Axios.post("/app/actual", this.state.inputTransaction)
       .then(
         () => this.getAllCurrentTransactions(),
@@ -71,6 +89,10 @@ class App extends React.Component {
           inputTransaction: {}
         })
       )
+=======
+    Axios.post('/app/actual', this.state.inputTransaction)
+      .then(() => this.getAllCurrentTransactions())
+>>>>>>> 362815f07588caef670de0ce31527966728fd752
       .catch(err => {
         if (err) console.log(err);
       });
@@ -81,17 +103,30 @@ class App extends React.Component {
     let newBudgetDataArray = [];
     let objectKeys = Object.keys(this.state.inputBudget);
     for (let i in this.state.inputBudget) {
+<<<<<<< HEAD
       if (objectKeys[i] !== "month") {
         let eachCategoryObj = {};
         eachCategoryObj["month"] = this.state.inputBudget.month;
         eachCategoryObj["category"] = objectKeys[i];
         eachCategoryObj["amount"] = this.state.inputBudget[i];
+=======
+      if (objectKeys[i] !== 'month') {
+        let eachCategoryObj = {};
+        eachCategoryObj['month'] = this.state.inputBudget.month;
+        eachCategoryObj['category'] = objectKeys[i];
+        eachCategoryObj['amount'] = this.state.inputBudget[i];
+>>>>>>> 362815f07588caef670de0ce31527966728fd752
         newBudgetDataArray.push(eachCategoryObj);
       }
     }
 
+<<<<<<< HEAD
     console.log("newBudgetDataArray", newBudgetDataArray);
     Axios.post("/app/budget", this.state.inputBudget)
+=======
+    console.log('newBudgetDataArray', newBudgetDataArray);
+    Axios.post('/app/budget', this.state.inputBudget)
+>>>>>>> 362815f07588caef670de0ce31527966728fd752
       .then(() => {
         this.getCurrentBudget();
         this.setState({ budgetForm: true });

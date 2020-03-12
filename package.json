@@ -35,7 +35,12 @@
     "nodemon": "^2.0.2",
     "path": "^0.12.7",
     "react": "^16.13.0",
+<<<<<<< HEAD
     "react-bulma-components": "^3.2.0",
     "react-dom": "^16.13.0"
+=======
+    "react-dom": "^16.13.0",
+    "stringify": "^5.2.0"
+>>>>>>> 362815f07588caef670de0ce31527966728fd752
   }
 }
