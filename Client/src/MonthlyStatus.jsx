@@ -3,7 +3,7 @@ import React from 'react';
 const MonthlyStatus = props => {
   return (
     <div>
-      Monthly Budget and Amount Spent
+      <i class="fa fa-search"></i>Monthly Budget and Amount Spent
       {props.transactionTypes.map(eachBudgetType => {
         return (
           <div>

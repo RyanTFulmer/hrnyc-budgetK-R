@@ -14,18 +14,21 @@ module.exports = {
     create: (req, res) => {
       console.log('req.body is', req.body);
 
-      // const params = {
-      //   category: req.body.category,
-      //   month: req.body.month,
-      //   amount: req.body.amount
-      // };
-      budget
-        .create(req.body)
-        .then(response => res.status(202).json(response))
-        .catch(err => {
-          console.log(err);
-          res.sendStatus(420);
-        });
+      req.body.forEach(newBudgetRow => {
+        const params = {
+          category: newBudgetRow.category,
+          month: newBudgetRow.month,
+          amount: newBudgetRow.amount
+        };
+        console.log('params', params);
+        budget
+          .create(params)
+          .then(response => res.status(202).json(response))
+          .catch(err => {
+            console.log(err);
+            res.sendStatus(420);
+          });
+      });
     }
   },
   actual: {
