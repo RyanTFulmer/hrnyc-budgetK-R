@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const InputTransactionForm = props => {
   return (
@@ -13,7 +13,7 @@ const InputTransactionForm = props => {
             onChange={props.handleTransactionChange}
           />
         </label>
-        <br />
+        <br></br>
         <label>
           Description:
           <input
@@ -23,7 +23,7 @@ const InputTransactionForm = props => {
             onChange={props.handleTransactionChange}
           />
         </label>
-        <br />
+        <br></br>
         <label>
           Amount:
           <input
@@ -34,22 +34,21 @@ const InputTransactionForm = props => {
           />
         </label>
         <br></br>
-        Transaction:Type:
+            Transaction:Type:
         <div class="field">
           <div class="control">
             <div class="select is-primary is-small">
               <select
                 onChange={props.handleTransactionChange}
-                name="transactionType"
-              >
+                name="transactionType">
                 <option value="credit">credit</option>
                 <option value="debit">debit</option>
               </select>
             </div>
           </div>
         </div>
-        description:
-        <br />
+            category:
+                <br></br>
         <div class="field">
           <div class="control">
             <div class="select is-primary is-small">
@@ -75,13 +74,12 @@ const InputTransactionForm = props => {
           />
         </label>
       </form>
-      <br />
+      <br></br>
       <i class="fa fa-arrow-right"></i>
       <button
-        onClick={props.handleTransactionSubmit}
-        class="button is-success is-inverted"
-      >
-        Submit transaction
+        onClick={props.handleTransactionShow}
+        class="button is-success is-inverted">
+        Check transaction
       </button>
     </div>
   );

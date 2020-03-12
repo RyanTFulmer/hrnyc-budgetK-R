@@ -29,3 +29,18 @@ const InputBudgetForm = props => {
 };
 
 module.exports = InputBudgetForm;
+
+// {props.transactionTypes.map(newCategory => {
+//   return (
+//     <div>
+//       <label>
+//         {newCategory}
+//         <input
+//           type="number"
+//           name={newCategory}
+//           onChange={props.handleBudgetChange}
+//         />
+//       </label>
+//     </div>
+//   );
+// })}
